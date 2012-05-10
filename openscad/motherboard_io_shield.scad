@@ -8,4 +8,12 @@ module mobo_shield() {
 	}
 }
 
-mobo_shield();
+module mobo_shield_dxf() {
+	difference() {
+		mobo_shield();
+		translate([46,2,-1]) rotate([0,0,90])
+			linear_extrude(file = "GA-D525TUD.dxf", height = 50);
+	}
+}
+
+mobo_shield_dxf();
