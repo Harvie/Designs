@@ -4,6 +4,7 @@ _*
 *.backup
 *.ps
 *.eps
+*.wav
 *~
 *-
 *#

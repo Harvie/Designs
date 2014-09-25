@@ -1,7 +1,0 @@
-svorky:
-1x zem
-2x zaporna
-3x kladna
-(1x standby - USB)
-
-1x vypinac

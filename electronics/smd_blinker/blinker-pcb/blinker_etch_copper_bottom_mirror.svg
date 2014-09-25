@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1.1811in" x="0in" version="1.2" y="0in"  height="1.06299in" viewBox="0 0 85.0394 76.5354" baseProfile="tiny" xmlns:svg="http://www.w3.org/2000/svg">
+ <g transform="matrix(-1, 0, 0, 1, 85.0394, 0)">
+  <g partID="19200">
+   <g  id="board">
+    <rect width="84.4634" x="0.288" y="0.288" fill="none"  height="75.9594" stroke="black" fill-opacity="0.5" id="boardoutline" stroke-width="0.5"/>
+   </g>
+  </g>
+  <g partID="18466840">
+   <g transform="translate(18.864,9.504)">
+    <g  id="groundplane">
+     <polygon fill="black" points="0,0,0,14.4,9.792,14.4,9.792,16.56,11.232,16.56,11.232,7.2,9.792,7.2,9.792,0"  stroke="none" stroke-width="0"/>
+     <g  id="connector0pad">
+      <circle fill="black" cx="4.5135"  cy="5.022" stroke="none" r="2.7" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466850">
+   <g transform="translate(33.264,9.504)">
+    <g  id="groundplane">
+     <g  id="connector0pad">
+      <polygon fill="black" points="1.296,0,1.296,7.2,4.176,7.2,4.176,0"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="10.224,5.328,10.224,7.2,12.96,7.2,12.96,5.328"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,7.2,0,7.344,12.96,7.344,12.96,7.2"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,7.2,0,7.344,12.96,7.344,12.96,7.2"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,7.344,0,11.232,11.52,11.232,11.52,11.376,12.96,11.376,12.96,7.344"  stroke="none" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466860">
+   <g transform="translate(43.488,9.504)">
+    <g  id="groundplane">
+     <g  id="connector0pad">
+      <polygon fill="black" points="0,0,0,2.16,8.784,2.16,8.784,0"  stroke="none" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466870">
+   <g transform="translate(49.392,9.504)">
+    <g  id="groundplane">
+     <g  id="connector0pad">
+      <polygon fill="black" points="8.784,0,8.784,7.2,11.664,7.2,11.664,0"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,5.328,0,7.2,2.88,7.2,2.88,5.328"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,7.2,0,7.344,18.432,7.344,18.432,7.2"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,7.2,0,7.344,18.432,7.344,18.432,7.2"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="0,7.344,0,9.504,1.872,9.504,1.872,9.36,18.432,9.36,18.432,7.344"  stroke="none" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466880">
+   <g transform="translate(33.264,23.904)">
+    <g  id="groundplane">
+     <g  id="connector0pad">
+      <polygon fill="black" points="0,0,0,12.96,5.904,12.96,5.904,11.376,5.76,11.376,5.76,2.016,9.36,2.016,9.36,0"  stroke="none" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466890">
+   <g transform="translate(2.88,2.88)">
+    <g  id="groundplane">
+     <polygon fill="black" points="0,0,0,3.456,67.104,3.456,67.104,3.6,67.392,3.6,67.392,3.744,67.536,3.744,67.536,3.888,67.68,3.888,67.68,4.032,67.824,4.032,67.824,4.176,67.968,4.176,67.968,4.464,68.112,4.464,68.112,18.144,67.968,18.144,67.968,18.432,67.824,18.432,67.824,18.72,67.68,18.72,67.68,18.864,67.392,18.864,67.392,19.008,67.248,19.008,67.248,19.152,50.112,19.152,50.112,21.456,70.704,21.456,70.704,21.6,70.992,21.6,70.992,21.744,71.136,21.744,71.136,21.888,71.28,21.888,71.28,22.032,71.424,22.032,71.424,22.176,71.568,22.176,71.568,22.464,71.712,22.464,71.712,26.064,74.016,26.064,74.016,34.848,79.2,34.848,79.2,0"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,3.456,0,64.224,13.968,64.224,13.968,64.08,13.536,64.08,13.536,63.936,13.392,63.936,13.392,63.792,13.248,63.792,13.248,63.648,13.104,63.648,13.104,63.504,12.96,63.504,12.96,63.216,12.816,63.216,12.816,57.168,10.8,57.168,10.8,55.152,6.48,55.152,6.48,55.008,6.336,55.008,6.336,54.864,6.048,54.864,6.048,54.72,5.904,54.72,5.904,54.432,5.76,54.432,5.76,54.144,5.616,54.144,5.616,28.656,2.736,28.656,2.736,21.024,12.816,21.024,12.816,4.464,12.96,4.464,12.96,4.176,13.104,4.176,13.104,4.032,13.248,4.032,13.248,3.888,13.392,3.888,13.392,3.744,13.536,3.744,13.536,3.6,13.824,3.6,13.824,3.456"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="50.112,21.456,50.112,23.04,50.256,23.04,50.256,30.384,57.744,30.384,57.744,22.608,57.888,22.608,57.888,22.32,58.032,22.32,58.032,22.032,58.176,22.032,58.176,21.888,58.32,21.888,58.32,21.744,58.608,21.744,58.608,21.6,58.896,21.6,58.896,21.456"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="60.912,24.624,60.912,32.544,60.768,32.544,60.768,32.832,60.624,32.832,60.624,33.12,60.48,33.12,60.48,33.264,60.192,33.264,60.192,33.408,60.048,33.408,60.048,33.552,46.368,33.552,46.368,34.848,66.384,34.848,66.384,26.064,68.544,26.064,68.544,24.624"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="46.368,34.848,46.368,34.992,79.2,34.992,79.2,34.848"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="46.368,34.848,46.368,34.992,79.2,34.992,79.2,34.848"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="46.512,34.992,46.512,40.176,74.016,40.176,74.016,48.96,71.712,48.96,71.712,53.856,73.152,53.856,73.152,60.624,71.712,60.624,71.712,63.216,71.568,63.216,71.568,63.504,71.424,63.504,71.424,63.648,71.28,63.648,71.28,63.792,71.136,63.792,71.136,63.936,70.992,63.936,70.992,64.08,70.56,64.08,70.56,64.224,79.2,64.224,79.2,34.992"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="46.512,40.176,46.512,40.464,50.256,40.464,50.256,48.528,66.384,48.528,66.384,40.176"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,64.224,0,64.368,79.2,64.368,79.2,64.224"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,64.224,0,64.368,79.2,64.368,79.2,64.224"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,64.368,0,70.704,79.2,70.704,79.2,64.368"  stroke="none" stroke-width="0"/>
+     <g  id="connector0pad">
+      <circle fill="black" cx="73.3961"  cy="5.54193" stroke="none" r="2.7" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466900">
+   <g transform="translate(18.864,29.232)">
+    <g  id="groundplane">
+     <polygon fill="black" points="9.792,0,9.792,2.304,0,2.304,0,7.632,2.016,7.632,2.016,7.776,7.92,7.776,7.92,7.92,8.208,7.92,8.208,8.064,8.352,8.064,8.352,8.208,8.496,8.208,8.496,8.352,8.64,8.352,8.64,8.496,8.784,8.496,8.784,8.784,8.928,8.784,8.928,22.176,20.16,22.176,20.16,14.112,27.36,14.112,27.36,10.8,12.096,10.8,12.096,10.656,11.952,10.656,11.952,10.512,11.664,10.512,11.664,10.368,11.52,10.368,11.52,10.08,11.376,10.08,11.376,9.792,11.232,9.792,11.232,0"  stroke="none" stroke-width="0"/>
+     <g  id="connector0pad">
+      <circle fill="black" cx="13.716"  cy="14.9985" stroke="none" r="2.7" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466910">
+   <g transform="translate(11.664,31.536)">
+    <g  id="groundplane">
+     <polygon fill="black" points="0,0,0,18.72,5.472,18.72,5.472,18.576,4.752,18.576,4.752,18.432,4.32,18.432,4.32,18.288,4.032,18.288,4.032,18.144,3.744,18.144,3.744,18,3.6,18,3.6,17.856,3.456,17.856,3.456,17.712,3.168,17.712,3.168,17.568,3.024,17.568,3.024,17.424,2.88,17.424,2.88,17.136,2.736,17.136,2.736,16.992,2.592,16.992,2.592,16.848,2.448,16.848,2.448,16.56,2.304,16.56,2.304,16.272,2.16,16.272,2.16,15.84,2.016,15.84,2.016,14.256,2.16,14.256,2.16,13.824,2.304,13.824,2.304,13.536,2.448,13.536,2.448,13.248,2.592,13.248,2.592,13.104,2.736,13.104,2.736,12.96,2.88,12.96,2.88,12.672,3.024,12.672,3.024,12.528,3.168,12.528,3.168,12.384,3.456,12.384,3.456,12.24,3.6,12.24,3.6,12.096,3.744,12.096,3.744,11.952,4.032,11.952,4.032,0"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="7.2,8.496,7.2,11.952,7.344,11.952,7.344,12.096,7.632,12.096,7.632,12.24,7.776,12.24,7.776,12.384,7.92,12.384,7.92,12.528,8.064,12.528,8.064,12.672,8.208,12.672,8.208,12.816,8.352,12.816,8.352,12.96,8.496,12.96,8.496,13.248,8.64,13.248,8.64,13.392,8.784,13.392,8.784,13.68,8.928,13.68,8.928,14.112,9.072,14.112,9.072,14.688,9.216,14.688,9.216,15.408,9.072,15.408,9.072,15.984,8.928,15.984,8.928,16.416,8.784,16.416,8.784,16.704,8.64,16.704,8.64,16.848,8.496,16.848,8.496,17.136,8.352,17.136,8.352,17.28,8.208,17.28,8.208,17.424,8.064,17.424,8.064,17.568,7.92,17.568,7.92,17.712,7.776,17.712,7.776,17.856,7.632,17.856,7.632,18,7.344,18,7.344,18.144,7.2,18.144,7.2,18.288,6.912,18.288,6.912,18.432,6.48,18.432,6.48,18.576,5.616,18.576,5.616,18.72,12.96,18.72,12.96,8.64,8.928,8.64,8.928,8.496"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,18.72,0,18.864,12.96,18.864,12.96,18.72"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,18.72,0,18.864,12.96,18.864,12.96,18.72"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,18.864,0,21.312,9.072,21.312,9.072,21.456,9.216,21.456,9.216,23.04,14.256,23.04,14.256,22.896,13.824,22.896,13.824,22.752,13.68,22.752,13.68,22.608,13.392,22.608,13.392,22.464,13.248,22.464,13.248,22.176,13.104,22.176,13.104,21.888,12.96,21.888,12.96,18.864"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="0,21.312,0,23.328,2.016,23.328,2.016,21.312"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="29.232,22.896,29.232,23.04,30.96,23.04,30.96,22.896"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="9.216,23.04,9.216,23.184,30.96,23.184,30.96,23.04"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="9.216,23.04,9.216,23.184,30.96,23.184,30.96,23.04"  stroke="none" stroke-width="0"/>
+     <polygon fill="black" points="9.216,23.184,9.216,28.512,7.2,28.512,7.2,32.4,29.52,32.4,29.52,25.2,30.96,25.2,30.96,23.184"  stroke="none" stroke-width="0"/>
+     <g  id="connector0pad">
+      <circle fill="black" cx="14.371"  cy="27.405" stroke="none" r="2.7" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466920">
+   <g transform="translate(45.792,50.544)">
+    <g  id="groundplane">
+     <g  id="connector0pad">
+      <polygon fill="black" points="0,0,0,6.192,21.456,6.192,21.456,13.392,24.192,13.392,24.192,6.192,25.632,6.192,25.632,4.032,5.472,4.032,5.472,3.888,5.04,3.888,5.04,3.744,4.752,3.744,4.752,3.6,4.608,3.6,4.608,3.456,4.464,3.456,4.464,3.312,4.32,3.312,4.32,3.024,4.176,3.024,4.176,2.592,4.032,2.592,4.032,0"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="1.44,6.192,1.44,13.392,4.32,13.392,4.32,6.192"  stroke="none" stroke-width="0"/>
+      <polygon fill="black" points="10.224,6.192,10.224,7.92,15.408,7.92,15.408,6.192"  stroke="none" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18466930">
+   <g transform="translate(56.016,61.632)">
+    <g  id="groundplane">
+     <g  id="connector0pad">
+      <polygon fill="black" points="0,0,0,2.304,5.184,2.304,5.184,0"  stroke="none" stroke-width="0"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465690">
+   <g transform="translate(52.4213,10.0497)">
+    <g flipped="1" id="copper0">
+     <g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+      <g>
+       <g>
+        <g>
+         <rect width="4.53543" x="0.566929" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector0pad" stroke-width="0"/>
+         <rect width="4.53543" x="9.35433" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector1pad" stroke-width="0"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465680">
+   <g transform="translate(43.2654,16.5694)">
+    <g transform="matrix(-1,0,0,-1,0,0)">
+     <g flipped="1" id="copper0">
+      <g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+       <g>
+        <g>
+         <g>
+          <rect width="4.53543" x="0.566929" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector0pad" stroke-width="0"/>
+          <rect width="4.53543" x="9.35433" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector1pad" stroke-width="0"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465670">
+   <g transform="translate(67.5157,51.7615)">
+    <g transform="matrix(0,-1,1,0,0,0)">
+     <g flipped="1" id="copper0">
+      <g transform="matrix(-1, 0, 0, 1, 22.6772, 0)">
+       <g>
+        <g>
+         <g>
+          <rect width="7.37007" x="0.566928" y="2.40945" fill="black" height="6.23622" stroke="none" style="opacity:0.92000002;" fill-opacity="1" id="connector1pad" stroke-width="0"/>
+          <rect width="7.37007" x="14.7401" y="2.40945" fill="black" height="6.23622" stroke="none" style="opacity:0.92000002;" fill-opacity="1" id="connector0pad" stroke-width="0"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465660">
+   <g transform="translate(5.7913,22.182)">
+    <g flipped="1" id="copper0">
+     <g transform="matrix(-1, 0, 0, 1, 22.6772, 0)">
+      <g>
+       <g>
+        <g>
+         <rect width="7.37007" x="0.566928" y="2.40945" fill="black" height="6.23622" stroke="none" style="opacity:0.92000002;" fill-opacity="1" id="connector1pad" stroke-width="0"/>
+         <rect width="7.37007" x="14.7401" y="2.40945" fill="black" height="6.23622" stroke="none" style="opacity:0.92000002;" fill-opacity="1" id="connector0pad" stroke-width="0"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465650">
+   <g transform="translate(55.8654,63.3694)">
+    <g transform="matrix(-1,0,0,-1,0,0)">
+     <g flipped="1" id="copper0">
+      <g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+       <g>
+        <g>
+         <g>
+          <rect width="4.53543" x="0.566929" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector0pad" stroke-width="0"/>
+          <rect width="4.53543" x="9.35433" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector1pad" stroke-width="0"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465640">
+   <g transform="translate(61.4213,56.8497)">
+    <g flipped="1" id="copper0">
+     <g transform="matrix(-1, 0, 0, 1, 14.4567, 0)">
+      <g>
+       <g>
+        <g>
+         <rect width="4.53543" x="0.566929" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector0pad"/>
+         <rect width="4.53543" x="9.35433" y="0.566929" fill="black" height="5.38583" stroke="none" fill-opacity="1" id="connector1pad"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="18465630">
+   <g transform="translate(37.9956,26.6296)">
+    <g flipped="1" id="copper0">
+     <g transform="matrix(-1, 0, 0, 1, 16, 0)">
+      <g>
+       <g>
+        <g>
+         <rect width="1.872" x="1.61634" y="17.424" fill="black" height="5.76" id="connector0pin" stroke-width="0"/>
+         <rect width="1.872" x="5.21634" y="17.424" fill="black" height="5.76" id="connector1pin" stroke-width="0"/>
+         <rect width="1.872" x="8.81634" y="17.424" fill="black" height="5.76" id="connector2pin" stroke-width="0"/>
+         <rect width="1.872" x="12.4163" y="17.424" fill="black" height="5.76" id="connector3pin" stroke-width="0"/>
+         <rect width="1.872" x="12.4163" y="0" fill="black" height="5.76" id="connector4pin" stroke-width="0"/>
+         <rect width="1.872" x="8.81634" y="0" fill="black" height="5.76" id="connector5pin" stroke-width="0"/>
+         <rect width="1.872" x="5.21634" y="0" fill="black" height="5.76" id="connector6pin" stroke-width="0"/>
+         <rect width="1.872" x="1.61634" y="0" fill="black" height="5.76" id="connector7pin" stroke-width="0"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="110370">
+   <g transform="translate(25.0193,63.2702)">
+    <g transform="matrix(-1,0,0,-1,0,0)">
+     <g id="copper0">
+      <rect width="4.32" x="5.616" y="4.60063" fill="none" height="4.32" stroke="black" id="square" stroke-width="1.44"/>
+      <circle fill="none" cx="7.776" cy="6.76063" stroke="black" id="connector0pin" r="2.16" stroke-width="1.44"/>
+      <circle fill="none" cx="7.776" cy="16.6819" stroke="black" id="connector1pin" r="2.16" stroke-width="1.44"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="138850">
+   <line stroke="black" stroke-linecap="round" y1="65.5096" x1="73.0433" y2="62.4025" stroke-width="1.728" x2="73.0433"/>
+  </g>
+  <g partID="138830">
+   <line stroke="black" stroke-linecap="round" y1="65.5096" x1="17.2433" y2="65.5096" stroke-width="1.728" x2="73.0433"/>
+  </g>
+  <g partID="138770">
+   <line stroke="black" stroke-linecap="round" y1="58.7496" x1="17.2433" y2="65.5096" stroke-width="1.728" x2="17.2433"/>
+  </g>
+  <g partID="137130">
+   <line stroke="black" stroke-linecap="round" y1="60.1096" x1="54.8984" y2="60.1096" stroke-width="1.728" x2="62.3882"/>
+  </g>
+  <g partID="18464520">
+   <line stroke="black" stroke-linecap="round" y1="52.9381" x1="51.4719" y2="52.9381" stroke-width="1.728" x2="73.0719"/>
+  </g>
+  <g partID="140640">
+   <line stroke="black" stroke-linecap="round" y1="52.9381" x1="73.0719" y2="47.5096" stroke-width="1.728" x2="73.0433"/>
+  </g>
+  <g partID="138710">
+   <line stroke="black" stroke-linecap="round" y1="49.4136" x1="51.4551" y2="52.9381" stroke-width="1.728" x2="51.4719"/>
+  </g>
+  <g partID="140530">
+   <line stroke="black" stroke-linecap="round" y1="47.5096" x1="73.0433" y2="47.5096" stroke-width="1.728" x2="73.0433"/>
+  </g>
+  <g partID="138010">
+   <line stroke="black" stroke-linecap="round" y1="27.7096" x1="31.6433" y2="27.7096" stroke-width="1.728" x2="27.5015"/>
+  </g>
+  <g partID="137930">
+   <line stroke="black" stroke-linecap="round" y1="38.5096" x1="31.6433" y2="27.7096" stroke-width="1.728" x2="31.6433"/>
+  </g>
+  <g partID="137910">
+   <line stroke="black" stroke-linecap="round" y1="38.5096" x1="47.8433" y2="38.5096" stroke-width="1.728" x2="31.6433"/>
+  </g>
+  <g partID="137870">
+   <line stroke="black" stroke-linecap="round" y1="44.4536" x1="47.8433" y2="38.5096" stroke-width="1.728" x2="47.8433"/>
+  </g>
+  <g partID="137550">
+   <line stroke="black" stroke-linecap="round" y1="34.9096" x1="40.6433" y2="31.9896" stroke-width="1.728" x2="40.6433"/>
+  </g>
+  <g partID="18464870">
+   <line stroke="black" stroke-linecap="round" y1="34.9096" x1="62.2433" y2="34.9096" stroke-width="1.728" x2="40.6433"/>
+  </g>
+  <g partID="18464910">
+   <line stroke="black" stroke-linecap="round" y1="25.9096" x1="62.2433" y2="34.9096" stroke-width="1.728" x2="62.2433"/>
+  </g>
+  <g partID="137530">
+   <line stroke="black" stroke-linecap="round" y1="25.9096" x1="73.0433" y2="25.9096" stroke-width="1.728" x2="62.2433"/>
+  </g>
+  <g partID="137470">
+   <line stroke="black" stroke-linecap="round" y1="30.0513" x1="73.0433" y2="25.9096" stroke-width="1.728" x2="73.0433"/>
+  </g>
+  <g partID="137270">
+   <line stroke="black" stroke-linecap="round" y1="51.1096" x1="44.2433" y2="49.4136" stroke-width="1.728" x2="44.2433"/>
+  </g>
+  <g partID="137190">
+   <line stroke="black" stroke-linecap="round" y1="57.8167" x1="44.2433" y2="51.1096" stroke-width="1.728" x2="44.2433"/>
+  </g>
+  <g partID="139010">
+   <line stroke="black" stroke-linecap="round" y1="56.5096" x1="10.0433" y2="56.5096" stroke-width="1.728" x2="15.0033"/>
+  </g>
+  <g partID="138990">
+   <line stroke="black" stroke-linecap="round" y1="43.9096" x1="10.0433" y2="56.5096" stroke-width="1.728" x2="10.0433"/>
+  </g>
+  <g partID="138890">
+   <line stroke="black" stroke-linecap="round" y1="30.4277" x1="10.0433" y2="43.9096" stroke-width="1.728" x2="10.0433"/>
+  </g>
+  <g partID="137750">
+   <line stroke="black" stroke-linecap="round" y1="15.6025" x1="31.6433" y2="27.7096" stroke-width="1.728" x2="31.6433"/>
+  </g>
+  <g partID="137670">
+   <line stroke="black" stroke-linecap="round" y1="27.7096" x1="31.6433" y2="22.3096" stroke-width="1.728" x2="31.6433"/>
+  </g>
+  <g partID="137630">
+   <line stroke="black" stroke-linecap="round" y1="27.7096" x1="27.5015" y2="27.7096" stroke-width="1.728" x2="31.6433"/>
+  </g>
+  <g partID="137690">
+   <line stroke="black" stroke-linecap="round" y1="22.3096" x1="31.6433" y2="22.3096" stroke-width="1.728" x2="44.2433"/>
+  </g>
+  <g partID="137710">
+   <line stroke="black" stroke-linecap="round" y1="22.3096" x1="44.2433" y2="27.0296" stroke-width="1.728" x2="44.2433"/>
+  </g>
+  <g partID="18464270">
+   <line stroke="black" stroke-linecap="round" y1="52.9381" x1="40.6147" y2="49.4136" stroke-width="1.728" x2="40.6315"/>
+  </g>
+  <g partID="18464160">
+   <line stroke="black" stroke-linecap="round" y1="52.9381" x1="26.2147" y2="52.9381" stroke-width="1.728" x2="40.6147"/>
+  </g>
+  <g partID="18464050">
+   <line stroke="black" stroke-linecap="round" y1="38.5381" x1="26.2147" y2="52.9381" stroke-width="1.728" x2="26.2147"/>
+  </g>
+  <g partID="18463940">
+   <line stroke="black" stroke-linecap="round" y1="38.5096" x1="17.2433" y2="38.5381" stroke-width="1.728" x2="26.2147"/>
+  </g>
+  <g partID="18463620">
+   <line stroke="black" stroke-linecap="round" y1="44.3483" x1="17.2433" y2="38.5096" stroke-width="1.728" x2="17.2433"/>
+  </g>
+  <g partID="18464710">
+   <line stroke="black" stroke-linecap="round" y1="7.90957" x1="17.2433" y2="38.5096" stroke-width="1.728" x2="17.2433"/>
+  </g>
+  <g partID="138170">
+   <line stroke="black" stroke-linecap="round" y1="7.90957" x1="69.4433" y2="7.90957" stroke-width="1.728" x2="17.2433"/>
+  </g>
+  <g partID="138150">
+   <line stroke="black" stroke-linecap="round" y1="20.5096" x1="69.4433" y2="7.90957" stroke-width="1.728" x2="69.4433"/>
+  </g>
+  <g partID="140320">
+   <line stroke="black" stroke-linecap="round" y1="13.3096" x1="69.4433" y2="7.90957" stroke-width="1.728" x2="69.4433"/>
+  </g>
+  <g partID="139930">
+   <line stroke="black" stroke-linecap="round" y1="20.5096" x1="51.4433" y2="20.5096" stroke-width="1.728" x2="69.4433"/>
+  </g>
+  <g partID="138530">
+   <line stroke="black" stroke-linecap="round" y1="13.3096" x1="65.911" y2="13.3096" stroke-width="1.728" x2="69.4433"/>
+  </g>
+  <g partID="138050">
+   <line stroke="black" stroke-linecap="round" y1="27.0296" x1="51.4433" y2="20.5096" stroke-width="1.728" x2="51.4433"/>
+  </g>
+  <g partID="137390">
+   <line stroke="black" stroke-linecap="round" y1="13.3096" x1="53.3882" y2="13.3096" stroke-width="1.728" x2="42.2984"/>
+  </g>
+  <g partID="137290">
+   <line stroke="black" stroke-linecap="round" y1="27.0296" x1="47.8433" y2="13.3096" stroke-width="1.728" x2="47.8433"/>
+  </g>
+  <g partID="139860">
+   <line stroke="black" stroke-linecap="round" y1="13.3096" x1="47.8433" y2="13.3096" stroke-width="1.728" x2="42.2984"/>
+  </g>
+  <g partID="138590">
+   <line stroke="black" stroke-linecap="round" y1="57.8167" x1="73.0433" y2="50.7946" stroke-width="1.728" x2="73.0433"/>
+  </g>
+ </g>
+</svg>
