@@ -5,11 +5,11 @@ FileVersion[20091103]
 
 PCB["" 200.6000mm 80.8000mm]
 
-Grid[1000.000000 0.1324mm 0.1583mm 0]
+Grid[2500.000000 0.1324mm 0.1583mm 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[10.00mil 10.00mil 10.00mil 10.00mil 15.00mil 10.00mil]
-Flags("nameonpcb,uniquename,clearnew,snappin")
+Flags("nameonpcb,uniquename,clearnew,snappin,liveroute")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,10.00mil,36.00mil,20.00mil,10.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -785,8 +785,8 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("PCB::grid::size" "10.00mil")
-Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::size" "25.00mil")
+Attribute("PCB::grid::unit" "mm")
 
 Element["" "RJ45-stacked-2x8" "" "" 56.3172mm 57.5115mm 0.0000 0.0000 0 100 ""]
 (
@@ -886,7 +886,7 @@ Element["" "RJ45-stacked-2x8" "" "" 56.3172mm 57.5115mm 0.0000 0.0000 0 100 ""]
 	Pin[798.00mil 2.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "43" "edge2"]
 	Pin[748.00mil 102.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "42" "edge2"]
 	Pin[848.00mil 102.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "41" "edge2"]
-	Pin[548.00mil 262.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "40" "selected,edge2"]
+	Pin[548.00mil 262.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "40" "edge2"]
 	Pin[498.00mil 362.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "39" "edge2"]
 	Pin[448.00mil 262.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "38" "edge2"]
 	Pin[398.00mil 362.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "37" "edge2"]
@@ -918,14 +918,14 @@ Element["" "RJ45-stacked-2x8" "" "" 56.3172mm 57.5115mm 0.0000 0.0000 0 100 ""]
 	Pin[-302.00mil 2.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "11" "edge2"]
 	Pin[-352.00mil 102.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "10" "edge2"]
 	Pin[-252.00mil 102.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "9" "edge2"]
-	Pin[-402.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "8" "edge2"]
+	Pin[-402.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "8" "edge2,thermal(0X)"]
 	Pin[3898.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "7" "edge2"]
 	Pin[4008.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "6" "edge2"]
 	Pin[3978.00mil 382.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "5" "edge2"]
 	Pin[4008.00mil 162.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "4" "edge2"]
-	Pin[-512.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "3" "edge2"]
-	Pin[-482.00mil 252.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "2" "edge2"]
-	Pin[-512.00mil 2.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "1" "edge2"]
+	Pin[-512.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "3" "edge2,thermal(0X)"]
+	Pin[-482.00mil 252.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "2" "edge2,thermal(0X)"]
+	Pin[-512.00mil 2.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "1" "edge2,thermal(0X)"]
 	ElementLine [105.3602mm -188.11mil -651.99mil -188.11mil 10.00mil]
 	ElementLine [105.3602mm 911.87mil 105.3602mm -188.11mil 10.00mil]
 	ElementLine [3608.00mil 911.87mil 105.3602mm 911.87mil 10.00mil]
@@ -1021,39 +1021,6 @@ Element["" "RJ45-stacked-2x8" "" "" 56.3172mm 57.5115mm 0.0000 0.0000 0 100 ""]
 
 	)
 
-Element["" "Dual in-line package, narrow (300 mil)" "" "DIP22" 76.0784mm 14.8903mm 170.00mil 50.00mil 3 100 ""]
-(
-	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
-	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" ""]
-	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "3" "3" ""]
-	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "4" "4" ""]
-	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "5" "5" ""]
-	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "6" "6" ""]
-	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" ""]
-	Pin[0.0000 700.00mil 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" ""]
-	Pin[0.0000 800.00mil 60.00mil 30.00mil 66.00mil 28.00mil "9" "9" ""]
-	Pin[0.0000 900.00mil 60.00mil 30.00mil 66.00mil 28.00mil "10" "10" ""]
-	Pin[0.0000 1000.00mil 60.00mil 30.00mil 66.00mil 28.00mil "11" "11" ""]
-	Pin[300.00mil 1000.00mil 60.00mil 30.00mil 66.00mil 28.00mil "12" "12" ""]
-	Pin[300.00mil 900.00mil 60.00mil 30.00mil 66.00mil 28.00mil "13" "13" ""]
-	Pin[300.00mil 800.00mil 60.00mil 30.00mil 66.00mil 28.00mil "14" "14" ""]
-	Pin[300.00mil 700.00mil 60.00mil 30.00mil 66.00mil 28.00mil "15" "15" ""]
-	Pin[300.00mil 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" ""]
-	Pin[300.00mil 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "17" "17" ""]
-	Pin[300.00mil 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "18" "18" ""]
-	Pin[300.00mil 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "19" "19" ""]
-	Pin[300.00mil 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "20" "20" ""]
-	Pin[300.00mil 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "21" "21" ""]
-	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "22" "22" ""]
-	ElementLine [-50.00mil -50.00mil -50.00mil 1050.00mil 10.00mil]
-	ElementLine [-50.00mil 1050.00mil 350.00mil 1050.00mil 10.00mil]
-	ElementLine [350.00mil 1050.00mil 350.00mil -50.00mil 10.00mil]
-	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
-	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
-	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
-
-	)
-
 Element["" "Header connector, DIP pin numbering" "" "HEADER32_1" 106.5584mm 3.9683mm 210.00mil -50.00mil 3 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
@@ -1096,6 +1063,107 @@ Element["" "Header connector, DIP pin numbering" "" "HEADER32_1" 106.5584mm 3.96
 	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
 
 	)
+
+Element["" "Dual in-line package, narrow (300 mil)" "" "DIP22" 75.8244mm 14.8903mm 170.00mil 50.00mil 3 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "3" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "4" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "5" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "6" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "7" "7" ""]
+	Pin[0.0000 700.00mil 60.00mil 30.00mil 66.00mil 28.00mil "8" "8" ""]
+	Pin[0.0000 800.00mil 60.00mil 30.00mil 66.00mil 28.00mil "9" "9" ""]
+	Pin[0.0000 900.00mil 60.00mil 30.00mil 66.00mil 28.00mil "10" "10" ""]
+	Pin[0.0000 1000.00mil 60.00mil 30.00mil 66.00mil 28.00mil "11" "11" ""]
+	Pin[300.00mil 1000.00mil 60.00mil 30.00mil 66.00mil 28.00mil "12" "12" ""]
+	Pin[300.00mil 900.00mil 60.00mil 30.00mil 66.00mil 28.00mil "13" "13" ""]
+	Pin[300.00mil 800.00mil 60.00mil 30.00mil 66.00mil 28.00mil "14" "14" ""]
+	Pin[300.00mil 700.00mil 60.00mil 30.00mil 66.00mil 28.00mil "15" "15" ""]
+	Pin[300.00mil 600.00mil 60.00mil 30.00mil 66.00mil 28.00mil "16" "16" ""]
+	Pin[300.00mil 500.00mil 60.00mil 30.00mil 66.00mil 28.00mil "17" "17" ""]
+	Pin[300.00mil 400.00mil 60.00mil 30.00mil 66.00mil 28.00mil "18" "18" ""]
+	Pin[300.00mil 300.00mil 60.00mil 30.00mil 66.00mil 28.00mil "19" "19" ""]
+	Pin[300.00mil 200.00mil 60.00mil 30.00mil 66.00mil 28.00mil "20" "20" ""]
+	Pin[300.00mil 100.00mil 60.00mil 30.00mil 66.00mil 28.00mil "21" "21" ""]
+	Pin[300.00mil 0.0000 60.00mil 30.00mil 66.00mil 28.00mil "22" "22" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 1050.00mil 10.00mil]
+	ElementLine [-50.00mil 1050.00mil 350.00mil 1050.00mil 10.00mil]
+	ElementLine [350.00mil 1050.00mil 350.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil -50.00mil 100.00mil -50.00mil 10.00mil]
+	ElementLine [200.00mil -50.00mil 350.00mil -50.00mil 10.00mil]
+	ElementArc [150.00mil -50.00mil 50.00mil 50.00mil 0 180 10.00mil]
+
+	)
+
+Element["" "Jumper, i.e. single row headers" "" "JUMPER12" 172.8524mm 8.4133mm 110.00mil -50.00mil 3 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" ""]
+	Pin[0.0000 700.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" ""]
+	Pin[0.0000 800.00mil 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" ""]
+	Pin[0.0000 900.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" ""]
+	Pin[0.0000 1000.00mil 60.00mil 30.00mil 66.00mil 38.00mil "11" "11" ""]
+	Pin[0.0000 1100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "12" "12" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 1150.00mil 10.00mil]
+	ElementLine [-50.00mil 1150.00mil 50.00mil 1150.00mil 10.00mil]
+	ElementLine [50.00mil 1150.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+
+	)
+
+Element["" "Jumper, i.e. single row headers" "" "JUMPER12" 183.0124mm 8.4133mm 110.00mil -50.00mil 3 100 ""]
+(
+	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
+	Pin[0.0000 100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "2" "2" ""]
+	Pin[0.0000 200.00mil 60.00mil 30.00mil 66.00mil 38.00mil "3" "3" ""]
+	Pin[0.0000 300.00mil 60.00mil 30.00mil 66.00mil 38.00mil "4" "4" ""]
+	Pin[0.0000 400.00mil 60.00mil 30.00mil 66.00mil 38.00mil "5" "5" ""]
+	Pin[0.0000 500.00mil 60.00mil 30.00mil 66.00mil 38.00mil "6" "6" ""]
+	Pin[0.0000 600.00mil 60.00mil 30.00mil 66.00mil 38.00mil "7" "7" ""]
+	Pin[0.0000 700.00mil 60.00mil 30.00mil 66.00mil 38.00mil "8" "8" ""]
+	Pin[0.0000 800.00mil 60.00mil 30.00mil 66.00mil 38.00mil "9" "9" ""]
+	Pin[0.0000 900.00mil 60.00mil 30.00mil 66.00mil 38.00mil "10" "10" ""]
+	Pin[0.0000 1000.00mil 60.00mil 30.00mil 66.00mil 38.00mil "11" "11" ""]
+	Pin[0.0000 1100.00mil 60.00mil 30.00mil 66.00mil 38.00mil "12" "12" ""]
+	ElementLine [-50.00mil -50.00mil -50.00mil 1150.00mil 10.00mil]
+	ElementLine [-50.00mil 1150.00mil 50.00mil 1150.00mil 10.00mil]
+	ElementLine [50.00mil 1150.00mil 50.00mil -50.00mil 10.00mil]
+	ElementLine [50.00mil -50.00mil -50.00mil -50.00mil 10.00mil]
+	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
+	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
+
+	)
+
+Element["" "DFS Bridge rectifier" "BR000" "" 159.5174mm 16.0333mm 0.0000 0.0000 0 100 ""]
+(
+	Pad[-215.00mil -100.00mil -150.00mil -100.00mil 47.24mil 20.00mil 67.24mil "1" "1" "square"]
+	Pad[-215.00mil 100.00mil -150.00mil 100.00mil 47.24mil 20.00mil 67.24mil "2" "2" "square"]
+	Pad[150.00mil -100.00mil 215.00mil -100.00mil 47.24mil 20.00mil 67.24mil "3" "3" "square,edge2"]
+	Pad[150.00mil 100.00mil 215.00mil 100.00mil 47.24mil 20.00mil 67.24mil "4" "4" "square,edge2"]
+	ElementLine [50.00mil -100.00mil 90.00mil -100.00mil 15.00mil]
+	ElementLine [-125.00mil -170.00mil -125.00mil 170.00mil 15.00mil]
+	ElementLine [-125.00mil -170.00mil 125.00mil -170.00mil 15.00mil]
+	ElementLine [-125.00mil 170.00mil 125.00mil 170.00mil 15.00mil]
+	ElementLine [125.00mil -170.00mil 125.00mil 170.00mil 15.00mil]
+	ElementLine [70.00mil 80.00mil 70.00mil 120.00mil 15.00mil]
+	ElementLine [-74.26mil -113.86mil -85.75mil -86.15mil 15.00mil]
+	ElementLine [-74.26mil 91.14mil -85.75mil 118.85mil 15.00mil]
+	ElementLine [50.00mil 100.00mil 90.00mil 100.00mil 15.00mil]
+	ElementArc [-92.74mil -121.52mil 20.00mil 20.00mil 158 90 15.00mil]
+	ElementArc [-67.27mil -78.49mil 20.00mil 20.00mil 338 90 15.00mil]
+	ElementArc [-92.74mil 83.48mil 20.00mil 20.00mil 158 90 15.00mil]
+	ElementArc [-67.27mil 126.51mil 20.00mil 20.00mil 338 90 15.00mil]
+
+	)
 Layer(1 "top")
 (
 	Line[76.5864mm 57.5623mm 76.5864mm 51.4663mm 10.00mil 20.00mil "clearline"]
@@ -1129,6 +1197,34 @@ Layer(1 "top")
 	Line[84.9684mm 66.7063mm 86.2384mm 65.4363mm 10.00mil 20.00mil "clearline"]
 	Line[86.2384mm 65.4363mm 86.2384mm 52.2283mm 10.00mil 20.00mil "clearline"]
 	Line[85.4764mm 62.8963mm 83.9524mm 64.4203mm 10.00mil 20.00mil "clearline"]
+	Line[83.4444mm 37.7503mm 85.9844mm 40.2903mm 25.00mil 20.00mil "clearline"]
+	Line[85.9844mm 40.2903mm 85.9844mm 48.1643mm 25.00mil 20.00mil "clearline"]
+	Line[83.4444mm 40.2903mm 84.9684mm 41.8143mm 25.00mil 20.00mil "clearline"]
+	Line[84.9684mm 41.8143mm 84.9684mm 48.1643mm 25.00mil 20.00mil "clearline"]
+	Line[75.8244mm 37.7503mm 73.5384mm 40.0363mm 25.00mil 20.00mil "clearline"]
+	Line[73.5384mm 40.0363mm 73.5384mm 48.4183mm 25.00mil 20.00mil "clearline"]
+	Line[75.8244mm 40.2903mm 74.5544mm 41.5603mm 25.00mil 20.00mil "clearline"]
+	Line[74.5544mm 41.5603mm 74.5544mm 48.1643mm 25.00mil 20.00mil "clearline"]
+	Line[75.8244mm 35.2103mm 76.9674mm 36.3533mm 10.00mil 20.00mil "clearline"]
+	Line[76.9674mm 36.3533mm 76.9674mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[75.8244mm 32.6703mm 77.6024mm 34.4483mm 10.00mil 20.00mil "clearline"]
+	Line[77.6024mm 34.4483mm 77.6024mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[75.8244mm 30.1303mm 78.2374mm 32.5433mm 10.00mil 20.00mil "clearline"]
+	Line[78.2374mm 32.5433mm 78.2374mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[75.8244mm 27.5903mm 78.8724mm 30.6383mm 10.00mil 20.00mil "clearline"]
+	Line[78.8724mm 30.6383mm 78.8724mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[83.4444mm 35.2103mm 82.0474mm 36.6073mm 10.00mil 20.00mil "clearline"]
+	Line[82.0474mm 36.6073mm 82.0474mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[83.4444mm 32.6703mm 81.4124mm 34.7023mm 10.00mil 20.00mil "clearline"]
+	Line[81.4124mm 34.7023mm 81.4124mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[83.4444mm 30.1303mm 80.7774mm 32.7973mm 10.00mil 20.00mil "clearline"]
+	Line[80.7774mm 32.7973mm 80.7774mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Line[83.4444mm 27.5903mm 80.1424mm 30.8923mm 10.00mil 20.00mil "clearline"]
+	Line[80.1424mm 30.8923mm 80.1424mm 47.7833mm 10.00mil 20.00mil "clearline"]
+	Polygon("clearpoly")
+	(
+		[36.9624mm 50.9583mm] [50.2974mm 50.9583mm] [50.2974mm 80.8033mm] [36.9624mm 80.8033mm] 
+	)
 )
 Layer(2 "ground")
 (
@@ -1171,4 +1267,6 @@ Layer(10 "silk")
 (
 	Line[86.7464mm 73.5643mm 86.7464mm 47.1483mm 10.00mil 20.00mil "clearline"]
 	Line[72.7764mm 73.5643mm 72.7764mm 47.1483mm 10.00mil 20.00mil "clearline"]
+	Line[86.7464mm 47.6563mm 86.7464mm 0.0000 10.00mil 20.00mil "clearline"]
+	Line[72.7764mm 47.9103mm 72.7764mm 0.0000 10.00mil 20.00mil "clearline"]
 )
