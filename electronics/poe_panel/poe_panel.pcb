@@ -918,14 +918,14 @@ Element["" "RJ45-stacked-2x8" "" "" 56.3172mm 57.5115mm 0.0000 0.0000 0 100 ""]
 	Pin[-302.00mil 2.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "11" "edge2"]
 	Pin[-352.00mil 102.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "10" "edge2"]
 	Pin[-252.00mil 102.00mil 66.00mil 20.00mil 72.00mil 40.00mil "" "9" "edge2"]
-	Pin[-402.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "8" "edge2,thermal(0t)"]
-	Pin[3898.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "7" "edge2,thermal(0t)"]
-	Pin[4008.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "6" "edge2,thermal(0S)"]
-	Pin[3978.00mil 382.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "5" "edge2,thermal(0S)"]
-	Pin[4008.00mil 162.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "4" "edge2,thermal(0S)"]
-	Pin[-512.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "3" "edge2,thermal(0S)"]
-	Pin[-482.00mil 252.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "2" "edge2,thermal(0S)"]
-	Pin[-512.00mil 2.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "1" "edge2,thermal(0S)"]
+	Pin[-402.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "8" "edge2,thermal(5t)"]
+	Pin[3898.00mil 612.00mil 156.00mil 20.00mil 162.00mil 130.00mil "" "7" "edge2,thermal(5t)"]
+	Pin[4008.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "6" "edge2,thermal(5S)"]
+	Pin[3978.00mil 382.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "5" "edge2,thermal(5S)"]
+	Pin[4008.00mil 162.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "4" "edge2,thermal(5S)"]
+	Pin[-512.00mil 792.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "3" "edge2,thermal(5S)"]
+	Pin[-482.00mil 252.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "2" "edge2,thermal(5S)"]
+	Pin[-512.00mil 2.00mil 91.00mil 20.00mil 97.00mil 65.00mil "" "1" "edge2,thermal(5S)"]
 	ElementLine [105.3602mm -188.11mil -651.99mil -188.11mil 10.00mil]
 	ElementLine [105.3602mm 911.87mil 105.3602mm -188.11mil 10.00mil]
 	ElementLine [3608.00mil 911.87mil 105.3602mm 911.87mil 10.00mil]
@@ -1166,6 +1166,34 @@ Element["" "Header connector, DIP pin numbering" "" "HEADER32_1" 132.4664mm 8.03
 	)
 Layer(1 "top")
 (
+	Line[76.5864mm 64.1663mm 76.5864mm 62.6423mm 10.00mil 20.00mil "clearline"]
+	Line[76.5864mm 62.6423mm 77.0944mm 62.1343mm 10.00mil 20.00mil "clearline"]
+	Line[77.0944mm 62.1343mm 81.1584mm 62.1343mm 10.00mil 20.00mil "clearline"]
+	Line[81.1584mm 62.1343mm 82.9364mm 60.3563mm 10.00mil 20.00mil "clearline"]
+	Line[82.9364mm 60.3563mm 82.9364mm 60.1023mm 10.00mil 20.00mil "clearline"]
+	Line[75.3164mm 66.7063mm 76.5864mm 65.4363mm 10.00mil 20.00mil "clearline"]
+	Line[76.5864mm 65.4363mm 77.3484mm 65.4363mm 10.00mil 20.00mil "clearline"]
+	Line[77.3484mm 65.4363mm 77.8564mm 64.9283mm 10.00mil 20.00mil "clearline"]
+	Line[77.8564mm 64.9283mm 77.8564mm 63.4043mm 10.00mil 20.00mil "clearline"]
+	Line[77.8564mm 63.4043mm 78.3644mm 62.8963mm 10.00mil 20.00mil "clearline"]
+	Line[78.3644mm 62.8963mm 82.4284mm 62.8963mm 10.00mil 20.00mil "clearline"]
+	Line[82.4284mm 62.8963mm 84.2064mm 61.1183mm 10.00mil 20.00mil "clearline"]
+	Line[84.2064mm 61.1183mm 84.2064mm 57.5623mm 10.00mil 20.00mil "clearline"]
+)
+Layer(2 "ground")
+(
+)
+Layer(3 "signal2")
+(
+)
+Layer(4 "signal3")
+(
+)
+Layer(5 "power")
+(
+)
+Layer(6 "bottom")
+(
 	Line[76.5864mm 57.5623mm 76.5864mm 51.4663mm 10.00mil 20.00mil "clearline"]
 	Line[79.1264mm 57.5623mm 79.1264mm 51.4663mm 10.00mil 20.00mil "clearline"]
 	Line[80.3964mm 60.1023mm 80.3964mm 51.4663mm 10.00mil 20.00mil "clearline"]
@@ -1229,34 +1257,6 @@ Layer(1 "top")
 	(
 		[169.6774mm 58.5783mm] [156.3424mm 58.5783mm] [156.3424mm 80.8033mm] [169.6774mm 80.8033mm] 
 	)
-)
-Layer(2 "ground")
-(
-)
-Layer(3 "signal2")
-(
-)
-Layer(4 "signal3")
-(
-)
-Layer(5 "power")
-(
-)
-Layer(6 "bottom")
-(
-	Line[76.5864mm 64.1663mm 76.5864mm 62.6423mm 10.00mil 20.00mil "clearline"]
-	Line[76.5864mm 62.6423mm 77.0944mm 62.1343mm 10.00mil 20.00mil "clearline"]
-	Line[77.0944mm 62.1343mm 81.1584mm 62.1343mm 10.00mil 20.00mil "clearline"]
-	Line[81.1584mm 62.1343mm 82.9364mm 60.3563mm 10.00mil 20.00mil "clearline"]
-	Line[82.9364mm 60.3563mm 82.9364mm 60.1023mm 10.00mil 20.00mil "clearline"]
-	Line[75.3164mm 66.7063mm 76.5864mm 65.4363mm 10.00mil 20.00mil "clearline"]
-	Line[76.5864mm 65.4363mm 77.3484mm 65.4363mm 10.00mil 20.00mil "clearline"]
-	Line[77.3484mm 65.4363mm 77.8564mm 64.9283mm 10.00mil 20.00mil "clearline"]
-	Line[77.8564mm 64.9283mm 77.8564mm 63.4043mm 10.00mil 20.00mil "clearline"]
-	Line[77.8564mm 63.4043mm 78.3644mm 62.8963mm 10.00mil 20.00mil "clearline"]
-	Line[78.3644mm 62.8963mm 82.4284mm 62.8963mm 10.00mil 20.00mil "clearline"]
-	Line[82.4284mm 62.8963mm 84.2064mm 61.1183mm 10.00mil 20.00mil "clearline"]
-	Line[84.2064mm 61.1183mm 84.2064mm 57.5623mm 10.00mil 20.00mil "clearline"]
 )
 Layer(7 "outline")
 (
