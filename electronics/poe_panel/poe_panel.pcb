@@ -1190,29 +1190,29 @@ Element["" "Jumper, i.e. single row headers" "" "JUMPER12" 79.6344mm 13.8743mm 1
 
 Element["" "smt1206" "" "1206 Chip site" 76.5864mm 68.9923mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
 	)
 
-Element["selected" "smt1206" "" "1206 Chip site" 84.2064mm 68.9923mm 0.0000 0.0000 3 100 "selected"]
+Element["" "smt1206" "" "1206 Chip site" 84.2064mm 68.9923mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
 	)
 
-Element["selected" "smt1206" "" "1206 Chip site" 81.6664mm 68.9923mm 0.0000 0.0000 3 100 "selected"]
+Element["" "smt1206" "" "1206 Chip site" 81.6664mm 68.9923mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
 	)
 
 Element["" "smt1206" "" "1206 Chip site" 79.1264mm 68.9923mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
 	)
 Layer(1 "top")
@@ -1246,7 +1246,6 @@ Layer(5 "power")
 Layer(6 "bottom")
 (
 	Line[82.9364mm 60.1023mm 82.9364mm 51.4663mm 10.00mil 20.00mil "clearline"]
-	Line[84.2064mm 57.5623mm 84.2064mm 51.4663mm 10.00mil 20.00mil "clearline"]
 	Line[81.6664mm 64.1663mm 77.8564mm 60.3563mm 10.00mil 20.00mil "clearline"]
 	Line[77.8564mm 51.4663mm 77.8564mm 60.3563mm 10.00mil 20.00mil "clearline"]
 	Line[77.8564mm 66.7063mm 79.1264mm 65.4363mm 10.00mil 20.00mil "clearline"]
@@ -1318,6 +1317,12 @@ Layer(6 "bottom")
 	Line[75.3164mm 61.6263mm 75.8244mm 61.6263mm 10.00mil 20.00mil "clearline"]
 	Line[75.8244mm 61.6263mm 76.5864mm 60.8643mm 10.00mil 20.00mil "clearline"]
 	Line[76.5864mm 60.8643mm 76.5864mm 57.5623mm 10.00mil 20.00mil "clearline"]
+	Line[84.2064mm 57.5623mm 84.2064mm 31.1463mm 10.00mil 20.00mil "clearline"]
+	Line[84.2064mm 31.1463mm 79.6344mm 26.5743mm 10.00mil 20.00mil "clearline"]
+	Line[82.9364mm 51.7203mm 82.9364mm 32.4163mm 10.00mil 20.00mil "clearline"]
+	Line[82.9364mm 32.4163mm 79.6344mm 29.1143mm 10.00mil 20.00mil "clearline"]
+	Line[81.6664mm 51.7203mm 81.6664mm 36.2263mm 10.00mil 20.00mil "clearline"]
+	Line[81.6664mm 36.2263mm 79.6344mm 34.1943mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[36.9624mm 50.9583mm] [50.2974mm 50.9583mm] [50.2974mm 80.8033mm] [36.9624mm 80.8033mm] 
@@ -1329,6 +1334,10 @@ Layer(6 "bottom")
 )
 Layer(7 "outline")
 (
+	Line[81.6664mm 64.1663mm 82.1744mm 64.1663mm 10.00mil 20.00mil "clearline"]
+	Line[82.1744mm 64.1663mm 85.2224mm 61.1183mm 10.00mil 20.00mil "clearline"]
+	Line[85.2224mm 61.1183mm 85.2224mm 59.0863mm 10.00mil 20.00mil "clearline"]
+	Line[85.2224mm 59.0863mm 85.9844mm 58.3243mm 10.00mil 20.00mil "clearline"]
 )
 Layer(8 "spare")
 (
