@@ -821,15 +821,15 @@ Element["" "DFS Bridge rectifier" "BR000" "" 1200.00mil 1300.00mil 0.0000 0.0000
 
 	)
 
-Element["" "chip_diode" "" "SMD_DIODE 120 60" 1125.00mil 1000.00mil 40.00mil 65.00mil 0 100 ""]
+Element["" "chip_diode" "" "SMD_DIODE 120 60" 1245.00mil 1000.00mil -40.00mil -65.00mil 2 100 ""]
 (
 	Pad[0.0000 -5.00mil 0.0000 5.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[120.00mil -5.00mil 120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
-	ElementLine [-45.00mil -50.00mil -45.00mil 50.00mil 8.00mil]
-	ElementLine [-45.00mil 50.00mil 165.00mil 50.00mil 8.00mil]
-	ElementLine [165.00mil 50.00mil 165.00mil -50.00mil 8.00mil]
-	ElementLine [165.00mil -50.00mil -45.00mil -50.00mil 8.00mil]
-	ElementLine [-35.00mil -50.00mil -35.00mil 50.00mil 8.00mil]
+	Pad[-120.00mil -5.00mil -120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
+	ElementLine [45.00mil -50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil 45.00mil -50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil -165.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil 50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [35.00mil -50.00mil 35.00mil 50.00mil 8.00mil]
 
 	)
 
@@ -855,15 +855,15 @@ Element["" "DFS Bridge rectifier" "BR1" "" 1700.00mil 1300.00mil 0.0000 0.0000 1
 
 	)
 
-Element["" "chip_diode" "" "SMD_DIODE 120 60" 1625.00mil 1000.00mil 40.00mil 65.00mil 0 100 ""]
+Element["" "chip_diode" "" "SMD_DIODE 120 60" 1745.00mil 1000.00mil -40.00mil -65.00mil 2 100 ""]
 (
 	Pad[0.0000 -5.00mil 0.0000 5.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[120.00mil -5.00mil 120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
-	ElementLine [-45.00mil -50.00mil -45.00mil 50.00mil 8.00mil]
-	ElementLine [-45.00mil 50.00mil 165.00mil 50.00mil 8.00mil]
-	ElementLine [165.00mil 50.00mil 165.00mil -50.00mil 8.00mil]
-	ElementLine [165.00mil -50.00mil -45.00mil -50.00mil 8.00mil]
-	ElementLine [-35.00mil -50.00mil -35.00mil 50.00mil 8.00mil]
+	Pad[-120.00mil -5.00mil -120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
+	ElementLine [45.00mil -50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil 45.00mil -50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil -165.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil 50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [35.00mil -50.00mil 35.00mil 50.00mil 8.00mil]
 
 	)
 
@@ -889,15 +889,15 @@ Element["" "DFS Bridge rectifier" "2" "" 2200.00mil 1300.00mil 0.0000 0.0000 1 1
 
 	)
 
-Element["" "chip_diode" "" "SMD_DIODE 120 60" 2125.00mil 1000.00mil 40.00mil 65.00mil 0 100 ""]
+Element["" "chip_diode" "" "SMD_DIODE 120 60" 2245.00mil 1000.00mil -40.00mil -65.00mil 2 100 ""]
 (
 	Pad[0.0000 -5.00mil 0.0000 5.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[120.00mil -5.00mil 120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
-	ElementLine [-45.00mil -50.00mil -45.00mil 50.00mil 8.00mil]
-	ElementLine [-45.00mil 50.00mil 165.00mil 50.00mil 8.00mil]
-	ElementLine [165.00mil 50.00mil 165.00mil -50.00mil 8.00mil]
-	ElementLine [165.00mil -50.00mil -45.00mil -50.00mil 8.00mil]
-	ElementLine [-35.00mil -50.00mil -35.00mil 50.00mil 8.00mil]
+	Pad[-120.00mil -5.00mil -120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
+	ElementLine [45.00mil -50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil 45.00mil -50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil -165.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil 50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [35.00mil -50.00mil 35.00mil 50.00mil 8.00mil]
 
 	)
 
@@ -923,15 +923,15 @@ Element["" "DFS Bridge rectifier" "BR2" "" 2700.00mil 1300.00mil 0.0000 0.0000 1
 
 	)
 
-Element["" "chip_diode" "" "SMD_DIODE 120 60" 2625.00mil 1000.00mil 40.00mil 65.00mil 0 100 ""]
+Element["" "chip_diode" "" "SMD_DIODE 120 60" 2745.00mil 1000.00mil -40.00mil -65.00mil 2 100 ""]
 (
 	Pad[0.0000 -5.00mil 0.0000 5.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[120.00mil -5.00mil 120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
-	ElementLine [-45.00mil -50.00mil -45.00mil 50.00mil 8.00mil]
-	ElementLine [-45.00mil 50.00mil 165.00mil 50.00mil 8.00mil]
-	ElementLine [165.00mil 50.00mil 165.00mil -50.00mil 8.00mil]
-	ElementLine [165.00mil -50.00mil -45.00mil -50.00mil 8.00mil]
-	ElementLine [-35.00mil -50.00mil -35.00mil 50.00mil 8.00mil]
+	Pad[-120.00mil -5.00mil -120.00mil 5.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
+	ElementLine [45.00mil -50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil 45.00mil -50.00mil 8.00mil]
+	ElementLine [-165.00mil -50.00mil -165.00mil 50.00mil 8.00mil]
+	ElementLine [-165.00mil 50.00mil 45.00mil 50.00mil 8.00mil]
+	ElementLine [35.00mil -50.00mil 35.00mil 50.00mil 8.00mil]
 
 	)
 
