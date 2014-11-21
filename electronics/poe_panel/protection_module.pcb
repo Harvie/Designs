@@ -795,10 +795,9 @@ Via[2400.00mil 975.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[2000.00mil 975.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[1025.00mil 850.00mil 60.00mil 20.00mil 0.0000 35.00mil "" ""]
 Via[1025.00mil 600.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
-Via[3425.00mil 1375.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
-Via[3425.00mil 1050.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
-Via[3425.00mil 750.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
 Via[3225.00mil 750.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
+Via[3225.00mil 550.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
+Via[2950.00mil 550.00mil 60.00mil 20.00mil 0.0000 35.00mil "" "thermal(0S)"]
 
 Element["" "DFS Bridge rectifier" "BR000" "" 1200.00mil 1300.00mil 0.0000 0.0000 1 100 ""]
 (
@@ -972,6 +971,63 @@ Element["" "Jumper, i.e. single row headers" "" "JUMPER26" 3500.00mil 1600.00mil
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
 
 	)
+
+Element["" "" "" "" 3450.00mil 1450.00mil 0.0000 0.0000 1 100 ""]
+(
+	Pin[0.0000 0.0000 75.00mil 16.00mil 81.00mil 51.20mil "" "1" "thermal(0S)"]
+	Pin[0.0000 -196.85mil 75.00mil 16.00mil 81.00mil 51.20mil "" "1" "thermal(0X)"]
+	Pin[0.0000 -16.0000mm 75.00mil 16.00mil 81.00mil 51.20mil "" "2" "thermal(0X)"]
+	Pin[0.0000 -21.0000mm 75.00mil 16.00mil 81.00mil 51.20mil "" "2" "thermal(0S)"]
+	ElementLine [-2.6002mm 19.69mil 102.36mil 19.69mil 8.00mil]
+	ElementLine [-2.6002mm -196.84mil 102.36mil -196.84mil 8.00mil]
+	ElementLine [-82.67mil -196.85mil -82.67mil 19.68mil 8.00mil]
+	ElementLine [102.36mil -196.85mil 102.36mil 19.68mil 8.00mil]
+	ElementLine [1.97mil -314.96mil 1.97mil -6.1501mm 8.00mil]
+	ElementLine [1.97mil -584.65mil 1.97mil -519.69mil 8.00mil]
+	ElementLine [82.68mil -196.85mil 82.68mil 19.68mil 8.00mil]
+	ElementLine [-102.36mil -196.85mil -102.36mil 19.68mil 8.00mil]
+	ElementLine [102.36mil -846.45mil 102.36mil -16.0000mm 8.00mil]
+	ElementLine [-102.36mil -846.45mil -102.36mil -16.0000mm 8.00mil]
+	ElementLine [-102.36mil -629.93mil 2.6002mm -629.93mil 8.00mil]
+	ElementLine [-102.36mil -846.46mil 2.6002mm -846.46mil 8.00mil]
+	ElementLine [82.67mil -846.45mil 82.67mil -16.0000mm 8.00mil]
+	ElementLine [-82.68mil -846.45mil -82.68mil -16.0000mm 8.00mil]
+	ElementLine [-74.80mil -419.30mil -74.80mil -407.49mil 8.00mil]
+	ElementLine [-74.80mil -446.86mil -74.80mil -435.05mil 8.00mil]
+	ElementLine [-74.80mil -474.42mil -74.80mil -462.61mil 8.00mil]
+	ElementLine [-74.80mil -501.98mil -74.80mil -490.17mil 8.00mil]
+	ElementLine [-74.80mil -529.54mil -74.80mil -517.73mil 8.00mil]
+	ElementLine [-74.80mil -309.07mil -74.80mil -7.5504mm 8.00mil]
+	ElementLine [-74.80mil -336.62mil -74.80mil -324.81mil 8.00mil]
+	ElementLine [-74.80mil -364.18mil -74.80mil -8.9502mm 8.00mil]
+	ElementLine [-74.80mil -9.9502mm -74.80mil -379.93mil 8.00mil]
+	ElementLine [-74.80mil -226.39mil -74.80mil -214.58mil 8.00mil]
+	ElementLine [-74.80mil -253.95mil -74.80mil -242.14mil 8.00mil]
+	ElementLine [-74.80mil -281.51mil -74.80mil -269.70mil 8.00mil]
+	ElementLine [-74.80mil -612.22mil -74.80mil -600.41mil 8.00mil]
+	ElementLine [-74.80mil -557.10mil -74.80mil -545.29mil 8.00mil]
+	ElementLine [-74.80mil -584.66mil -74.80mil -572.85mil 8.00mil]
+	ElementLine [74.81mil -10.6500mm 74.81mil -10.3500mm 8.00mil]
+	ElementLine [74.81mil -11.3500mm 74.81mil -11.0500mm 8.00mil]
+	ElementLine [74.81mil -12.0500mm 74.81mil -11.7500mm 8.00mil]
+	ElementLine [74.81mil -12.7500mm 74.81mil -490.16mil 8.00mil]
+	ElementLine [74.81mil -529.53mil 74.81mil -517.72mil 8.00mil]
+	ElementLine [74.81mil -309.06mil 74.81mil -297.25mil 8.00mil]
+	ElementLine [74.81mil -336.61mil 74.81mil -324.80mil 8.00mil]
+	ElementLine [74.81mil -364.17mil 74.81mil -352.36mil 8.00mil]
+	ElementLine [74.81mil -391.73mil 74.81mil -379.92mil 8.00mil]
+	ElementLine [74.81mil -226.38mil 74.81mil -214.57mil 8.00mil]
+	ElementLine [74.81mil -253.94mil 74.81mil -6.1501mm 8.00mil]
+	ElementLine [74.81mil -281.50mil 74.81mil -269.69mil 8.00mil]
+	ElementLine [74.81mil -612.21mil 74.81mil -600.40mil 8.00mil]
+	ElementLine [74.81mil -557.09mil 74.81mil -545.28mil 8.00mil]
+	ElementLine [74.81mil -584.65mil 74.81mil -572.84mil 8.00mil]
+	ElementArc [1.97mil -366.14mil 51.18mil 51.18mil 0 90 8.00mil]
+	ElementArc [1.98mil -9.2997mm 51.19mil 51.19mil 270 90 8.00mil]
+	ElementArc [1.97mil -468.50mil 51.18mil 51.18mil 180 90 8.00mil]
+	ElementArc [1.96mil -468.51mil 51.19mil 51.19mil 90 90 8.00mil]
+
+	)
 Layer(1 "top")
 (
 	Line[1300.00mil 1117.50mil 1300.00mil 1055.00mil 40.00mil 20.00mil "clearline"]
@@ -1029,7 +1085,8 @@ Layer(1 "top")
 	Line[1700.00mil 1600.00mil 1700.00mil 1475.00mil 40.00mil 20.00mil ""]
 	Line[2200.00mil 1600.00mil 2200.00mil 1475.00mil 40.00mil 20.00mil ""]
 	Line[2700.00mil 1600.00mil 2700.00mil 1475.00mil 40.00mil 20.00mil ""]
-	Line[3425.00mil 1375.00mil 3425.00mil 1050.00mil 10.00mil 20.00mil ""]
+	Line[3450.00mil 1100.00mil 3450.00mil 950.00mil 10.00mil 20.00mil ""]
+	Text[1150.00mil 525.00mil 0 144 "(c) Harvie 2014" "clearline"]
 	Polygon("clearpoly")
 	(
 		[1475.00mil 1500.00mil] [1625.00mil 1500.00mil] [1625.00mil 1650.00mil] [1475.00mil 1650.00mil] 
@@ -1084,15 +1141,15 @@ Layer(1 "top")
 	)
 	Polygon("clearpoly")
 	(
-		[3525.00mil 1275.00mil] [3350.00mil 1275.00mil] [3350.00mil 475.00mil] [3525.00mil 475.00mil] 
-	)
-	Polygon("clearpoly")
-	(
-		[3350.00mil 1650.00mil] [3525.00mil 1650.00mil] [3525.00mil 1300.00mil] [3350.00mil 1300.00mil] 
-	)
-	Polygon("clearpoly")
-	(
 		[1500.00mil 475.00mil] [3525.00mil 475.00mil] [3525.00mil 625.00mil] [1500.00mil 625.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3350.00mil 475.00mil] [3550.00mil 475.00mil] [3550.00mil 1000.00mil] [3350.00mil 1000.00mil] 
+	)
+	Polygon("clearpoly")
+	(
+		[3350.00mil 1025.00mil] [3550.00mil 1025.00mil] [3550.00mil 1650.00mil] [3350.00mil 1650.00mil] 
 	)
 )
 Layer(2 "ground")
