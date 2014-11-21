@@ -1190,29 +1190,29 @@ Element["" "Jumper, i.e. single row headers" "" "JUMPER12" 79.6344mm 13.8743mm 1
 
 Element["" "smt1206" "" "1206 Chip site" 76.5864mm 68.9923mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
 
 	)
 
-Element["" "smt1206" "" "1206 Chip site" 84.2064mm 68.9923mm 0.0000 0.0000 3 100 ""]
+Element["selected" "smt1206" "" "1206 Chip site" 84.2064mm 68.9923mm 0.0000 0.0000 3 100 "selected"]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
 
 	)
 
-Element["" "smt1206" "" "1206 Chip site" 81.6664mm 68.9923mm 0.0000 0.0000 3 100 ""]
+Element["selected" "smt1206" "" "1206 Chip site" 81.6664mm 68.9923mm 0.0000 0.0000 3 100 "selected"]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
 
 	)
 
 Element["" "smt1206" "" "1206 Chip site" 79.1264mm 68.9923mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
-	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "selected,square"]
+	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "selected,square,edge2"]
 
 	)
 Layer(1 "top")
