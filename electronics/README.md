@@ -1,8 +1,7 @@
-# Harvie's electroprojects
+# Harvie's electro projects
 Some schematics, PCB designs and other electronics related stuff
-
-http://blog.harvie.cz/
-http://wiki.spoje.net/
+  * http://blog.harvie.cz/
+  * http://wiki.spoje.net/
 
 ### Usefull Software
   * http://www.gpleda.org/
