@@ -1274,14 +1274,15 @@ Layer(6 "bottom")
 	Line[84.9684mm 109.8863mm 84.7144mm 109.6323mm 10.00mil 20.00mil "clearline"]
 	Line[84.7144mm 109.6323mm 79.1264mm 109.6323mm 10.00mil 20.00mil "clearline"]
 	Line[79.1264mm 109.6323mm 78.5549mm 109.0608mm 10.00mil 20.00mil "clearline"]
-	Line[85.4129mm 109.6958mm 84.8414mm 109.1243mm 10.00mil 20.00mil "clearline"]
 	Line[84.8414mm 109.1243mm 79.3804mm 109.1243mm 10.00mil 20.00mil "clearline"]
 	Line[79.3804mm 109.1243mm 78.7454mm 108.4893mm 10.00mil 20.00mil "clearline"]
-	Line[85.2859mm 109.5688mm 86.6194mm 110.9023mm 10.00mil 20.00mil "clearline"]
 	Line[88.2704mm 112.9343mm 85.6034mm 112.9343mm 10.00mil 20.00mil "clearline"]
 	Line[85.6034mm 112.9343mm 85.2224mm 112.5533mm 10.00mil 20.00mil "clearline"]
 	Line[85.2224mm 112.5533mm 85.2224mm 110.1403mm 10.00mil 20.00mil "clearline"]
 	Line[85.2224mm 110.1403mm 84.7779mm 109.6958mm 10.00mil 20.00mil "clearline"]
+	Line[84.3334mm 109.1243mm 86.1114mm 109.1243mm 10.00mil 20.00mil "clearline"]
+	Line[86.1114mm 109.1243mm 86.6194mm 109.6323mm 10.00mil 20.00mil "clearline"]
+	Line[86.6194mm 109.6323mm 86.6194mm 110.9023mm 10.00mil 20.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[174.5034mm 97.4403mm] [161.1684mm 97.4403mm] [161.1684mm 119.6653mm] [174.5034mm 119.6653mm] 
