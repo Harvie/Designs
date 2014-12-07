@@ -786,7 +786,7 @@ Symbol['~' 12.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
 Attribute("PCB::grid::size" "5.00mil")
-Attribute("PCB::grid::unit" "mil")
+Attribute("PCB::grid::unit" "mm")
 Via[90.5564mm 88.0423mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[90.3024mm 90.5823mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
 Via[83.9524mm 88.0423mm 41.00mil 20.00mil 0.0000 20.00mil "" ""]
@@ -1130,6 +1130,44 @@ Element["" "RJ45-stacked-2x8" "" "" 61.1432mm 96.3735mm 0.0000 0.0000 0 100 ""]
 	ElementLine [-538.00mil 372.00mil -538.00mil 362.00mil 10.00mil]
 	ElementLine [-547.50mil 382.50mil -538.00mil 373.00mil 10.00mil]
 	ElementLine [-538.00mil 373.00mil -538.00mil 362.00mil 10.00mil]
+
+	)
+
+Element["" "3-pins screw terminal, 5mm spacing, oval pads" "K000" "" 169.8044mm 23.3993mm -177.16mil -19.68mil 3 100 ""]
+(
+	Pin[0.0000 -196.85mil 70.00mil 20.00mil 86.00mil 15.00mil "1" "1" ""]
+	Pin[0.0000 0.0000 70.00mil 20.00mil 86.00mil 15.00mil "2" "2" ""]
+	Pin[0.0000 196.85mil 70.00mil 20.00mil 86.00mil 15.00mil "3" "3" ""]
+	Pad[-50.00mil -196.85mil 50.00mil -196.85mil 70.00mil 20.00mil 90.00mil "1" "1" "edge2"]
+	Pad[-50.00mil -196.85mil 50.00mil -196.85mil 70.00mil 20.00mil 90.00mil "1" "1" "onsolder,edge2"]
+	Pad[-50.00mil 0.0000 50.00mil 0.0000 70.00mil 20.00mil 90.00mil "2" "2" "edge2"]
+	Pad[-50.00mil 0.0000 50.00mil 0.0000 70.00mil 20.00mil 90.00mil "2" "2" "onsolder,edge2"]
+	Pad[-50.00mil 196.85mil 50.00mil 196.85mil 70.00mil 20.00mil 90.00mil "3" "3" "edge2"]
+	Pad[-50.00mil 196.85mil 50.00mil 196.85mil 70.00mil 20.00mil 90.00mil "3" "3" "onsolder,edge2"]
+	ElementLine [-157.48mil 295.28mil -157.48mil -295.27mil 15.00mil]
+	ElementLine [118.11mil -295.27mil 118.11mil 295.28mil 15.00mil]
+	ElementLine [-98.43mil -295.27mil -98.43mil 295.28mil 15.00mil]
+	ElementLine [-157.48mil -295.27mil 118.11mil -295.27mil 15.00mil]
+	ElementLine [-157.48mil 295.28mil 118.11mil 295.28mil 15.00mil]
+	ElementLine [2.0000mm -295.27mil 2.0000mm 295.28mil 15.00mil]
+	ElementLine [19.68mil -255.90mil -68.90mil -167.32mil 15.00mil]
+	ElementLine [49.21mil -226.38mil 49.21mil -5.7498mm 15.00mil]
+	ElementLine [49.21mil -5.7498mm -39.37mil -137.79mil 15.00mil]
+	ElementLine [19.68mil -59.05mil -68.90mil 29.53mil 15.00mil]
+	ElementLine [49.21mil -29.53mil 49.21mil -29.52mil 15.00mil]
+	ElementLine [49.21mil -29.52mil -39.37mil 59.06mil 15.00mil]
+	ElementLine [-137.80mil -305.12mil -147.64mil -314.96mil 15.00mil]
+	ElementLine [-147.64mil -314.96mil -127.96mil -314.96mil 15.00mil]
+	ElementLine [-127.96mil -314.96mil -137.80mil -305.12mil 15.00mil]
+	ElementLine [19.68mil 137.80mil -68.90mil 226.38mil 15.00mil]
+	ElementLine [49.21mil 167.32mil 49.21mil 167.33mil 15.00mil]
+	ElementLine [49.21mil 167.33mil -39.37mil 255.91mil 15.00mil]
+	ElementArc [-118.11mil -196.85mil 9.84mil 9.84mil 0 360 5.00mil]
+	ElementArc [-118.11mil 0.0000 9.84mil 9.84mil 0 360 5.00mil]
+	ElementArc [-118.11mil 196.85mil 9.84mil 9.84mil 0 360 5.00mil]
+	ElementArc [-9.85mil -196.85mil 68.90mil 68.90mil 0 360 15.00mil]
+	ElementArc [-9.85mil 0.0000 68.90mil 68.90mil 0 360 15.00mil]
+	ElementArc [-9.85mil 196.85mil 68.90mil 68.90mil 0 360 15.00mil]
 
 	)
 Layer(1 "top")
