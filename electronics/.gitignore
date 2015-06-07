@@ -2,6 +2,7 @@ _*
 *.cmd
 *.net
 *.backup
+*.save
 *.ps
 *.eps
 *.wav
