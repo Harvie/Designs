@@ -1,0 +1,40 @@
+$ 13 5.0E-6 10.20027730826997 40 5.0 50
+v 144 560 144 224 0 1 40.0 320.0 0.0 0.0 0.5
+w 144 224 272 224 0
+s 272 400 272 480 0 0 false
+w 272 560 144 560 0
+z 272 384 272 320 1 0.805904783 5.6
+z 272 256 272 320 1 0.805904783 5.6
+w 272 256 272 224 0
+w 272 384 272 400 0
+w 272 384 384 384 0
+w 272 256 384 256 0
+d 384 256 336 320 1 0.805904783
+d 384 384 336 320 1 0.805904783
+d 432 320 384 384 1 0.805904783
+d 432 320 384 256 1 0.805904783
+w 336 320 336 240 0
+r 544 240 544 320 0 400.0
+r 272 560 272 480 0 460.0
+w 272 480 384 480 0
+r 384 480 384 384 0 20000.0
+w 496 320 544 320 0
+w 496 240 544 240 0
+c 480 240 480 320 0 9.999999999999999E-5 5.291135041026337
+w 496 240 480 240 0
+w 480 240 336 240 0
+w 432 320 480 320 0
+w 480 320 496 320 0
+x 587 286 771 292 0 24 powered circuit
+x 432 441 619 447 0 24 leakage resistor
+x 326 529 561 535 0 24 controlled light bulb
+x 111 77 842 83 0 24 This circuit allows to parasiticaly power low power electronics
+x 112 111 847 117 0 24 (like arduino) inside light switch box (where is no neutral line)
+x 113 143 849 149 0 24 by leaking little bit of current through bulb when switched off.
+x 125 620 895 626 0 24 "switch" can be controlled by "powered circuit" (TRIAC, SSR, ...).
+x 179 450 255 456 0 24 switch
+x 126 651 757 657 0 24 "leakage resistor", capacitor across "powered circuit"
+x 126 684 711 690 0 24 and "transil" should be chosen to match the load.
+x 115 174 863 180 0 24 Please note that "powered circuit" is directly coupled to mains!
+x 177 326 250 332 0 24 transil
+o 15 64 0 35 10.0 0.025 0 -1
