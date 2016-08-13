@@ -28,7 +28,7 @@ w 784 544 864 544 0
 x 158 92 624 98 0 24 Low voltage cutoff (3-36V) using TL431
 x 489 302 611 308 0 24 P-MOSFET
 x 296 590 712 594 0 16 You can omit 1k resistor if you don't need OFF switch
-x 156 123 347 127 0 16 + Built-in switch buttons
+x 157 144 348 148 0 16 + Built-in switch buttons
 x 675 380 714 384 0 16 500k
 x 676 398 746 402 0 16 multiturn
 x 454 276 461 279 0 10 S
@@ -49,8 +49,8 @@ d 384 416 384 384 1 0.805904783
 w 384 384 400 384 0
 w 384 416 400 416 0
 r 784 432 784 320 0 100.0
-x 157 161 347 165 0 16 + Zero off state current
-x 157 142 355 146 0 16 + Short circuit protection
+x 157 127 347 131 0 16 + Zero off state current
+x 157 161 783 165 0 16 + Short circuit protection (short circuit causes voltage drop that triggers cutoff)
 x 157 179 823 183 0 16 + Reverse voltage protection unless you use MOSFET with diode or press OFF button
 o 18 64 0 289 2.5 0.05 0 -1
 o 9 64 0 35 10.0 0.05 1 -1
