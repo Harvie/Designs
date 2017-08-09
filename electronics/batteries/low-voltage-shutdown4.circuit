@@ -1,0 +1,68 @@
+$ 1 5.0E-6 10.20027730826997 50 5.0 50
+w 304 448 384 448 0
+w 384 448 464 448 0
+f 304 272 368 272 1 1.5
+x 190 436 227 442 0 24 ON
+x 531 442 578 448 0 24 OFF
+w 368 192 304 192 0
+w 304 192 240 192 0
+w 240 192 112 192 0
+172 112 192 48 192 0 6 15.0 35.0 -5.0 0.0 0.5 input voltage
+x 63 46 805 52 0 23 Low voltage cutoff with on/off switch and overcurrent protection
+x 393 270 515 276 0 24 P-MOSFET
+x 62 97 470 101 0 16 + Built-in switch buttons and optional indicator LED
+x 612 343 652 346 0 10 50-500k
+x 613 357 659 360 0 10 multiturn
+x 358 244 364 247 0 10 S
+x 362 303 370 306 0 10 D
+w 368 288 560 288 0
+w 688 288 768 288 0
+w 368 256 368 192 0
+w 304 448 240 448 0
+x 63 115 699 119 0 16 + Short circuit protection (short circuit causes voltage drop that triggers cutoff)
+x 63 133 595 137 0 16 + Reverse voltage protection (unless you use MOSFET with diode!)
+w 608 288 688 288 0
+w 560 288 576 288 0
+174 624 192 560 192 0 500000.0 0.5 reconnect hysteresis
+w 592 208 592 240 0
+x 580 175 604 178 0 10 500k
+x 613 175 779 179 0 16 reconnect hysteresis
+x 612 375 659 379 0 16 cutoff
+w 624 192 624 272 0
+w 592 240 592 272 0
+w 528 192 384 192 0
+x 654 197 730 201 0 16 (optional)
+x 68 503 752 507 0 16 If you want automatic reconnect with hysteresis, just add another pot across MOSFET
+x 67 523 815 527 0 16 and connect cutoff pot to it's wiper instead of + rail (as illustrated). This overrides OFF switch.
+x 62 150 588 154 0 16 + Possibility to add automatic reconnect with hysteresis if needed
+x 62 79 748 83 0 16 + Only 5 components for basic setup!!! (without OFF button, LED and auto reconnect)
+r 304 272 304 192 0 100000.0
+w 304 320 304 272 0
+w 576 288 592 288 0
+w 592 288 608 288 0
+w 560 192 528 192 0
+w 304 320 240 320 0
+174 592 336 560 368 0 500000.0 0.5 cutoff voltage
+w 592 336 592 288 0
+w 592 368 592 448 0
+s 512 352 512 448 0 1 true
+w 592 448 512 448 0
+w 512 448 464 448 0
+r 688 288 688 368 0 3600.0
+162 688 368 688 448 1 2.1024259 1.0 0.0 0.0
+w 688 448 768 448 0
+w 688 448 592 448 0
+w 240 448 112 448 0
+g 112 448 64 448 0
+s 240 352 240 448 0 1 true
+w 240 320 240 352 0
+f 368 384 304 384 0 1.5
+w 304 368 304 320 0
+w 304 400 304 448 0
+w 368 384 512 352 0
+r 768 288 768 448 0 10.0
+w 560 352 512 352 0
+x 343 422 469 428 0 24 N-MOSFET
+o 7 64 0 289 10.0 1.6 0 -1
+o 2 64 0 35 20.0 1.6 1 -1
+o 60 64 0 35 10.0 9.765625E-5 2 -1
