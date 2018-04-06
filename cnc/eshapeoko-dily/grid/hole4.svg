@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:lc="http://www.librecad.org" xmlns:xlink="http://www.w3.org/1999/xlink" width="56mm" height="56mm" viewBox="0 0 56 56">
+    <g lc:layername="corner" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1">
+        <line x1="0" y1="56" x2="10" y2="46"/>
+    </g>
+    <g lc:layername="holes-big" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1">
+        <circle cx="50" cy="6" r="6"/>
+    </g>
+</svg>

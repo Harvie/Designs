@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4618"
+   version="1.1"
+   height="1122.51968504"
+   width="793.700787402">
+  <metadata
+     id="metadata4622">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <desc
+     id="desc4568">/home/harvie/Work/Designs/cnc/eshapeoko-dily/upinka2_6mm.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = file</desc>
+  <defs
+     id="defs4582">
+    <marker
+       style="overflow:visible"
+       refY="0.0"
+       refX="0.0"
+       orient="auto"
+       id="DistanceX">
+      <path
+         id="path4570"
+         style="stroke:#000000; stroke-width:0.5"
+         d="M 3,-3 L -3,3 M 0,-5 L  0,5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch"
+       height="8">
+      <path
+         id="path4573"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4575"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4577"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*Model_Space" />
+    <symbol
+       id="*Paper_Space" />
+  </defs>
+  <g
+     id="g4616">
+    <path
+       id="path4584"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 75.590551,1062.047244 A 11.338583,11.338583 -0.000000 0 0 75.590551,1084.724409" />
+    <path
+       id="path4586"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 0.000000,1122.519685 A 0.000000,0.000000 -0.000000 1 0 0.000000,1122.519685 0.000000,0.000000 -0.000000 1 0 0.000000,1122.519685 z" />
+    <path
+       id="path4588"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 0.000000,1046.929134 0.000000,1099.842520" />
+    <path
+       id="path4590"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 332.598425,1073.385827 A 11.338583,11.338583 -0.000000 1 0 309.921260,1073.385827 11.338583,11.338583 -0.000000 1 0 332.598425,1073.385827 z" />
+    <path
+       id="path4592"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 226.771654,1084.724409 A 11.338583,11.338583 -0.000000 0 0 226.771654,1062.047244" />
+    <path
+       id="path4594"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 377.952756,1099.842520 377.952756,1046.929134" />
+    <path
+       id="path4596"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 75.590551,1062.047244 226.771654,1062.047244" />
+    <path
+       id="path4598"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 226.771654,1084.724409 75.590551,1084.724409" />
+    <path
+       id="path4600"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 377.952756,1046.929134 355.275591,1024.251969" />
+    <path
+       id="path4602"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 377.952756,1099.842520 355.275591,1122.519685" />
+    <path
+       id="path4604"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 22.677165,1024.251969 355.275591,1024.251969" />
+    <path
+       id="path4606"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 355.275591,1122.519685 22.677165,1122.519685" />
+    <path
+       id="path4608"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 0.000000,1046.929134 0.000000,1024.251969" />
+    <path
+       id="path4610"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 0.000000,1024.251969 22.677165,1024.251969" />
+    <path
+       id="path4612"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 22.677165,1122.519685 0.000000,1122.519685" />
+    <path
+       id="path4614"
+       style="stroke:#000000;fill:none;stroke-linecap: round"
+       d="M 0.000000,1122.519685 0.000000,1099.842520" />
+    <path
+       d="m 321.65421,1073.1716 c -28.92898,-30.2772 26.54056,-53.9334 50.32275,-48.0818 64.44825,15.8573 72.97196,99.0641 45.84097,148.7273 -26.61764,48.7236 -80.72002,76.4559 -135.24756,77.6747"
+       id="path5176"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

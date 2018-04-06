@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:lc="http://www.librecad.org" xmlns:xlink="http://www.w3.org/1999/xlink" width="800mm" height="1256mm" viewBox="0 0 800 1256">
+    <g lc:layername="0" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1">
+        <line x1="0" y1="1256" x2="0" y2="6"/>
+        <line x1="100" y1="1256" x2="100" y2="6"/>
+        <line x1="200" y1="1256" x2="200" y2="6"/>
+        <line x1="300" y1="1256" x2="300" y2="6"/>
+        <line x1="400" y1="1256" x2="400" y2="6"/>
+        <line x1="500" y1="1256" x2="500" y2="6"/>
+        <line x1="600" y1="1256" x2="600" y2="6"/>
+        <line x1="700" y1="1256" x2="700" y2="6"/>
+        <line x1="800" y1="1256" x2="800" y2="6"/>
+    </g>
+    <g lc:layername="holes" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1">
+        <circle cx="50" cy="1206" r="6"/>
+        <circle cx="50" cy="1206" r="3.6"/>
+        <circle cx="150" cy="1206" r="6"/>
+        <circle cx="150" cy="1206" r="3.6"/>
+        <circle cx="250" cy="1206" r="6"/>
+        <circle cx="250" cy="1206" r="3.6"/>
+        <circle cx="350" cy="1206" r="6"/>
+        <circle cx="350" cy="1206" r="3.6"/>
+        <circle cx="450" cy="1206" r="6"/>
+        <circle cx="450" cy="1206" r="3.6"/>
+        <circle cx="550" cy="1206" r="6"/>
+        <circle cx="550" cy="1206" r="3.6"/>
+        <circle cx="650" cy="1206" r="6"/>
+        <circle cx="650" cy="1206" r="3.6"/>
+        <circle cx="750" cy="1206" r="6"/>
+        <circle cx="750" cy="1206" r="3.6"/>
+        <circle cx="50" cy="1106" r="6"/>
+        <circle cx="50" cy="1106" r="3.6"/>
+        <circle cx="150" cy="1106" r="6"/>
+        <circle cx="150" cy="1106" r="3.6"/>
+        <circle cx="250" cy="1106" r="6"/>
+        <circle cx="250" cy="1106" r="3.6"/>
+        <circle cx="350" cy="1106" r="6"/>
+        <circle cx="350" cy="1106" r="3.6"/>
+        <circle cx="450" cy="1106" r="6"/>
+        <circle cx="450" cy="1106" r="3.6"/>
+        <circle cx="550" cy="1106" r="6"/>
+        <circle cx="550" cy="1106" r="3.6"/>
+        <circle cx="650" cy="1106" r="6"/>
+        <circle cx="650" cy="1106" r="3.6"/>
+        <circle cx="750" cy="1106" r="6"/>
+        <circle cx="750" cy="1106" r="3.6"/>
+        <circle cx="50" cy="1006" r="6"/>
+        <circle cx="50" cy="1006" r="3.6"/>
+        <circle cx="150" cy="1006" r="6"/>
+        <circle cx="150" cy="1006" r="3.6"/>
+        <circle cx="250" cy="1006" r="6"/>
+        <circle cx="250" cy="1006" r="3.6"/>
+        <circle cx="350" cy="1006" r="6"/>
+        <circle cx="350" cy="1006" r="3.6"/>
+        <circle cx="450" cy="1006" r="6"/>
+        <circle cx="450" cy="1006" r="3.6"/>
+        <circle cx="550" cy="1006" r="6"/>
+        <circle cx="550" cy="1006" r="3.6"/>
+        <circle cx="650" cy="1006" r="6"/>
+        <circle cx="650" cy="1006" r="3.6"/>
+        <circle cx="750" cy="1006" r="6"/>
+        <circle cx="750" cy="1006" r="3.6"/>
+        <circle cx="50" cy="906" r="6"/>
+        <circle cx="50" cy="906" r="3.6"/>
+        <circle cx="150" cy="906" r="6"/>
+        <circle cx="150" cy="906" r="3.6"/>
+        <circle cx="250" cy="906" r="6"/>
+        <circle cx="250" cy="906" r="3.6"/>
+        <circle cx="350" cy="906" r="6"/>
+        <circle cx="350" cy="906" r="3.6"/>
+        <circle cx="450" cy="906" r="6"/>
+        <circle cx="450" cy="906" r="3.6"/>
+        <circle cx="550" cy="906" r="6"/>
+        <circle cx="550" cy="906" r="3.6"/>
+        <circle cx="650" cy="906" r="6"/>
+        <circle cx="650" cy="906" r="3.6"/>
+        <circle cx="750" cy="906" r="6"/>
+        <circle cx="750" cy="906" r="3.6"/>
+        <circle cx="50" cy="806" r="6"/>
+        <circle cx="50" cy="806" r="3.6"/>
+        <circle cx="150" cy="806" r="6"/>
+        <circle cx="150" cy="806" r="3.6"/>
+        <circle cx="250" cy="806" r="6"/>
+        <circle cx="250" cy="806" r="3.6"/>
+        <circle cx="350" cy="806" r="6"/>
+        <circle cx="350" cy="806" r="3.6"/>
+        <circle cx="450" cy="806" r="6"/>
+        <circle cx="450" cy="806" r="3.6"/>
+        <circle cx="550" cy="806" r="6"/>
+        <circle cx="550" cy="806" r="3.6"/>
+        <circle cx="650" cy="806" r="6"/>
+        <circle cx="650" cy="806" r="3.6"/>
+        <circle cx="750" cy="806" r="6"/>
+        <circle cx="750" cy="806" r="3.6"/>
+        <circle cx="50" cy="706" r="6"/>
+        <circle cx="50" cy="706" r="3.6"/>
+        <circle cx="150" cy="706" r="6"/>
+        <circle cx="150" cy="706" r="3.6"/>
+        <circle cx="250" cy="706" r="6"/>
+        <circle cx="250" cy="706" r="3.6"/>
+        <circle cx="350" cy="706" r="6"/>
+        <circle cx="350" cy="706" r="3.6"/>
+        <circle cx="450" cy="706" r="6"/>
+        <circle cx="450" cy="706" r="3.6"/>
+        <circle cx="550" cy="706" r="6"/>
+        <circle cx="550" cy="706" r="3.6"/>
+        <circle cx="650" cy="706" r="6"/>
+        <circle cx="650" cy="706" r="3.6"/>
+        <circle cx="750" cy="706" r="6"/>
+        <circle cx="750" cy="706" r="3.6"/>
+        <circle cx="50" cy="606" r="6"/>
+        <circle cx="50" cy="606" r="3.6"/>
+        <circle cx="150" cy="606" r="6"/>
+        <circle cx="150" cy="606" r="3.6"/>
+        <circle cx="250" cy="606" r="6"/>
+        <circle cx="250" cy="606" r="3.6"/>
+        <circle cx="350" cy="606" r="6"/>
+        <circle cx="350" cy="606" r="3.6"/>
+        <circle cx="450" cy="606" r="6"/>
+        <circle cx="450" cy="606" r="3.6"/>
+        <circle cx="550" cy="606" r="6"/>
+        <circle cx="550" cy="606" r="3.6"/>
+        <circle cx="650" cy="606" r="6"/>
+        <circle cx="650" cy="606" r="3.6"/>
+        <circle cx="750" cy="606" r="6"/>
+        <circle cx="750" cy="606" r="3.6"/>
+        <circle cx="50" cy="506" r="6"/>
+        <circle cx="50" cy="506" r="3.6"/>
+        <circle cx="150" cy="506" r="6"/>
+        <circle cx="150" cy="506" r="3.6"/>
+        <circle cx="250" cy="506" r="6"/>
+        <circle cx="250" cy="506" r="3.6"/>
+        <circle cx="350" cy="506" r="6"/>
+        <circle cx="350" cy="506" r="3.6"/>
+        <circle cx="450" cy="506" r="6"/>
+        <circle cx="450" cy="506" r="3.6"/>
+        <circle cx="550" cy="506" r="6"/>
+        <circle cx="550" cy="506" r="3.6"/>
+        <circle cx="650" cy="506" r="6"/>
+        <circle cx="650" cy="506" r="3.6"/>
+        <circle cx="750" cy="506" r="6"/>
+        <circle cx="750" cy="506" r="3.6"/>
+        <circle cx="50" cy="406" r="6"/>
+        <circle cx="50" cy="406" r="3.6"/>
+        <circle cx="150" cy="406" r="6"/>
+        <circle cx="150" cy="406" r="3.6"/>
+        <circle cx="250" cy="406" r="6"/>
+        <circle cx="250" cy="406" r="3.6"/>
+        <circle cx="350" cy="406" r="6"/>
+        <circle cx="350" cy="406" r="3.6"/>
+        <circle cx="450" cy="406" r="6"/>
+        <circle cx="450" cy="406" r="3.6"/>
+        <circle cx="550" cy="406" r="6"/>
+        <circle cx="550" cy="406" r="3.6"/>
+        <circle cx="650" cy="406" r="6"/>
+        <circle cx="650" cy="406" r="3.6"/>
+        <circle cx="750" cy="406" r="6"/>
+        <circle cx="750" cy="406" r="3.6"/>
+        <circle cx="50" cy="306" r="6"/>
+        <circle cx="50" cy="306" r="3.6"/>
+        <circle cx="150" cy="306" r="6"/>
+        <circle cx="150" cy="306" r="3.6"/>
+        <circle cx="250" cy="306" r="6"/>
+        <circle cx="250" cy="306" r="3.6"/>
+        <circle cx="350" cy="306" r="6"/>
+        <circle cx="350" cy="306" r="3.6"/>
+        <circle cx="450" cy="306" r="6"/>
+        <circle cx="450" cy="306" r="3.6"/>
+        <circle cx="550" cy="306" r="6"/>
+        <circle cx="550" cy="306" r="3.6"/>
+        <circle cx="650" cy="306" r="6"/>
+        <circle cx="650" cy="306" r="3.6"/>
+        <circle cx="750" cy="306" r="6"/>
+        <circle cx="750" cy="306" r="3.6"/>
+        <circle cx="50" cy="206" r="6"/>
+        <circle cx="50" cy="206" r="3.6"/>
+        <circle cx="150" cy="206" r="6"/>
+        <circle cx="150" cy="206" r="3.6"/>
+        <circle cx="250" cy="206" r="6"/>
+        <circle cx="250" cy="206" r="3.6"/>
+        <circle cx="350" cy="206" r="6"/>
+        <circle cx="350" cy="206" r="3.6"/>
+        <circle cx="450" cy="206" r="6"/>
+        <circle cx="450" cy="206" r="3.6"/>
+        <circle cx="550" cy="206" r="6"/>
+        <circle cx="550" cy="206" r="3.6"/>
+        <circle cx="650" cy="206" r="6"/>
+        <circle cx="650" cy="206" r="3.6"/>
+        <circle cx="750" cy="206" r="6"/>
+        <circle cx="750" cy="206" r="3.6"/>
+        <circle cx="50" cy="106" r="6"/>
+        <circle cx="50" cy="106" r="3.6"/>
+        <circle cx="150" cy="106" r="6"/>
+        <circle cx="150" cy="106" r="3.6"/>
+        <circle cx="250" cy="106" r="6"/>
+        <circle cx="250" cy="106" r="3.6"/>
+        <circle cx="350" cy="106" r="6"/>
+        <circle cx="350" cy="106" r="3.6"/>
+        <circle cx="450" cy="106" r="6"/>
+        <circle cx="450" cy="106" r="3.6"/>
+        <circle cx="550" cy="106" r="6"/>
+        <circle cx="550" cy="106" r="3.6"/>
+        <circle cx="650" cy="106" r="6"/>
+        <circle cx="650" cy="106" r="3.6"/>
+        <circle cx="750" cy="106" r="6"/>
+        <circle cx="750" cy="106" r="3.6"/>
+        <circle cx="50" cy="6" r="6"/>
+        <circle cx="50" cy="6" r="3.6"/>
+        <circle cx="150" cy="6" r="6"/>
+        <circle cx="150" cy="6" r="3.6"/>
+        <circle cx="250" cy="6" r="6"/>
+        <circle cx="250" cy="6" r="3.6"/>
+        <circle cx="350" cy="6" r="6"/>
+        <circle cx="350" cy="6" r="3.6"/>
+        <circle cx="450" cy="6" r="6"/>
+        <circle cx="450" cy="6" r="3.6"/>
+        <circle cx="550" cy="6" r="6"/>
+        <circle cx="550" cy="6" r="3.6"/>
+        <circle cx="650" cy="6" r="6"/>
+        <circle cx="650" cy="6" r="3.6"/>
+        <circle cx="750" cy="6" r="6"/>
+        <circle cx="750" cy="6" r="3.6"/>
+    </g>
+    <g lc:layername="numbers" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1"/>
+    <g lc:layername="x-lines" lc:is_locked="false" lc:is_construction="false" fill="none" stroke="black" stroke-width="1">
+        <line x1="0" y1="1256" x2="800" y2="1256"/>
+        <line x1="0" y1="1156" x2="800" y2="1156"/>
+        <line x1="0" y1="1056" x2="800" y2="1056"/>
+        <line x1="0" y1="956" x2="800" y2="956"/>
+        <line x1="0" y1="856" x2="800" y2="856"/>
+        <line x1="0" y1="756" x2="800" y2="756"/>
+        <line x1="0" y1="656" x2="800" y2="656"/>
+        <line x1="0" y1="556" x2="800" y2="556"/>
+        <line x1="0" y1="456" x2="800" y2="456"/>
+        <line x1="0" y1="356" x2="800" y2="356"/>
+        <line x1="0" y1="256" x2="800" y2="256"/>
+        <line x1="0" y1="156" x2="800" y2="156"/>
+        <line x1="0" y1="56" x2="800" y2="56"/>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+scale([1,1,0.7]) translate([0,0,-35]) scale(25) rotate([-90,0,0]) import("suzanne.stl");

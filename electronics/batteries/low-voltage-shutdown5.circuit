@@ -1,0 +1,70 @@
+$ 1 5.0E-6 10.20027730826997 50 5.0 50
+w 384 432 464 432 0
+w 464 432 544 432 0
+f 384 256 448 256 1 1.5
+x 270 420 307 426 0 24 ON
+x 611 426 658 432 0 24 OFF
+w 448 176 384 176 0
+w 384 176 320 176 0
+w 320 176 192 176 0
+172 192 176 128 176 0 6 15.0 35.0 -5.0 0.0 0.5 input voltage
+x 143 30 609 36 0 24 Low voltage cutoff (5-36V) using TL431
+x 473 254 595 260 0 24 P-MOSFET
+x 142 81 541 85 0 16 + Built-in switch buttons and optional indicator LED
+x 692 327 731 330 0 10 50-500k
+x 693 341 737 344 0 10 multiturn
+x 438 228 445 231 0 10 S
+x 442 287 450 290 0 10 D
+w 448 272 640 272 0
+w 768 272 848 272 0
+w 448 240 448 176 0
+w 384 432 320 432 0
+x 143 99 769 103 0 16 + Short circuit protection (short circuit causes voltage drop that triggers cutoff)
+x 143 117 663 121 0 16 + Reverse voltage protection (unless you use MOSFET with diode!)
+w 688 272 768 272 0
+w 640 272 656 272 0
+w 672 192 672 224 0
+x 660 159 683 162 0 10 500k
+x 693 159 857 163 0 16 reconnect hysteresis
+x 692 359 739 363 0 16 cutoff
+w 704 176 704 256 0
+x 734 181 807 185 0 16 (optional)
+x 148 487 820 491 0 16 If you want automatic reconnect with hysteresis, just add another pot across MOSFET
+x 147 507 878 511 0 16 and connect cutoff pot to it's wiper instead of + rail (as illustrated). This overrides OFF switch.
+x 142 134 654 138 0 16 + Possibility to add automatic reconnect with hysteresis if needed
+x 142 63 820 67 0 16 + Only 6 components for basic setup!!! (without OFF button, LED and auto reconnect)
+r 384 256 384 176 0 100000.0
+w 384 304 384 256 0
+w 656 272 672 272 0
+w 672 272 688 272 0
+w 384 304 320 304 0
+174 672 320 640 352 0 500000.0 0.49010000000000004 cutoff voltage
+w 672 320 672 272 0
+w 672 352 672 432 0
+w 672 432 592 432 0
+w 592 432 544 432 0
+r 768 272 768 352 0 3600.0
+162 768 352 768 432 1 2.1024259 1.0 0.0 0.0
+w 768 432 848 432 0
+w 768 432 672 432 0
+w 320 432 192 432 0
+g 192 432 144 432 0
+s 320 336 320 432 0 1 true
+w 320 304 320 336 0
+x 148 526 865 530 0 16 By using low-power LMV413 instead of TL431 you can use 80k series resistor instead of 5k.
+f 448 368 384 368 0 1.5
+w 384 352 384 304 0
+w 384 384 384 432 0
+r 848 272 848 432 0 10.0
+w 640 336 592 336 0
+w 544 416 544 432 0
+s 544 384 592 336 0 1 true
+r 480 400 448 272 0 1000.0
+f 480 400 544 400 0 1.5
+r 448 176 544 384 0 100000.0
+c 480 400 464 432 0 1.0E-5 2.956146765560306
+r 448 368 592 336 0 100.0
+o 7 64 0 289 10.0 1.6 0 -1
+o 2 64 0 35 20.0 1.6 1 -1
+o 53 64 0 35 20.0 1.953125E-4 2 -1
+o 63 64 0 35 20.0 0.0125 3 -1
