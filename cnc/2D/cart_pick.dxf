@@ -1111,9 +1111,9 @@ AcDbViewportTableRecord
  21
 1
  12
-73.00221462612885
+36.78959928489617
  22
-46.41200400071768
+23.25428336541847
  13
 0
  23
@@ -1139,7 +1139,7 @@ AcDbViewportTableRecord
  37
 0
  40
-109.0682094016865
+57.39788104199569
  41
 1.636524822695036
  42
@@ -2757,33 +2757,9 @@ AcDbArc
  51
 180
   0
-LINE
-  5
-51
-100
-AcDbEntity
-  8
-0
-  6
-ByLayer
- 62
-  256
-370
-   -1
-100
-AcDbLine
- 10
-34.14213562373095
- 20
-34.14213562373095
- 11
-34.14213562373095
- 21
-34.14213562373095
-  0
 CIRCLE
   5
-52
+51
 100
 AcDbEntity
   8
@@ -2805,7 +2781,7 @@ AcDbCircle
   0
 MTEXT
   5
-53
+52
 100
 AcDbEntity
   8
@@ -2851,7 +2827,7 @@ unicode
   0
 POINT
   5
-54
+53
 100
 AcDbEntity
   8
@@ -2871,7 +2847,7 @@ AcDbPoint
   0
 LINE
   5
-55
+54
 100
 AcDbEntity
   8
@@ -2895,7 +2871,7 @@ AcDbLine
   0
 LINE
   5
-56
+55
 100
 AcDbEntity
   8
@@ -2919,7 +2895,7 @@ AcDbLine
   0
 ARC
   5
-57
+56
 100
 AcDbEntity
   8
@@ -2947,7 +2923,7 @@ AcDbArc
   0
 LINE
   5
-58
+57
 100
 AcDbEntity
   8
@@ -2971,7 +2947,7 @@ AcDbLine
   0
 LINE
   5
-59
+58
 100
 AcDbEntity
   8
@@ -2995,7 +2971,7 @@ AcDbLine
   0
 ARC
   5
-5A
+59
 100
 AcDbEntity
   8
@@ -3023,7 +2999,7 @@ AcDbArc
   0
 LINE
   5
-5B
+5A
 100
 AcDbEntity
   8
@@ -3047,7 +3023,7 @@ AcDbLine
   0
 ARC
   5
-5C
+5B
 100
 AcDbEntity
   8
@@ -3075,7 +3051,7 @@ AcDbArc
   0
 LINE
   5
-5D
+5C
 100
 AcDbEntity
   8
@@ -3099,7 +3075,7 @@ AcDbLine
   0
 ARC
   5
-5E
+5D
 100
 AcDbEntity
   8
@@ -3127,7 +3103,7 @@ AcDbArc
   0
 ARC
   5
-5F
+5E
 100
 AcDbEntity
   8
