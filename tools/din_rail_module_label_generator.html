@@ -22,7 +22,10 @@ td[colspan="7"] { width: calc(7 * 18mm); }
 td[colspan="8"] { width: calc(8 * 18mm); }
 tr { margin-bottom: 10mm; }
 table { border-spacing:0px; border-collapse: collapse; }
-@media print { .noprint * { display: none; } }
+@media print {
+	.noprint * { display: none; }
+	@page { size: landscape; }
+}
 </style>
 </head>
 <body>
