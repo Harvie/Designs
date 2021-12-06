@@ -5,11 +5,14 @@
 <style>
 /* DIN Rail Modules are 17.5mm wide, but mounted with 18mm pitch to accomodate differences */
 
-* { font-family: sans-serif; font-weight: normal; font-size: 98%; }
+table,h1 { font-family: sans-serif; font-weight: normal; font-size: 3.8mm; line-height: 5.2mm; }
+small { font-size: 2.5mm; line-height: 2.5mm; }
+small small { font-size: 2mm; line-height: 1.9mm; }
+td * { display: block; }
 td {
 	border: 1px solid black; width: 18mm; height: 16mm; 
 	text-align: center; padding: 0; overflow: hidden;
-	display: flex; float: left; margin-bottom: 10mm; box-sizing: border-box;
+	display: flex-wrap; float: left; margin-bottom: 10mm; box-sizing: border-box;
 	justify-content: center; /* align-items: center; */
 	white-space: pre-line;
 }
@@ -72,8 +75,9 @@ Copy-paste these icons: &#x1F4E1; &#x1F310; &#x1F514; &#x1F4FA; &#x1F4DE; &#x1F5
 </tr>
 
 <tr>
-<td></td>
-<td></td>
+<td><small>Very long and tiny text that is really important to have on your breaker box!</small></td>
+<td>Warning!<small><small>Very long and tiny text that is really important to have on your breaker box!</small></small></td>
+<td><b>Bold</b> <i>Italic</i> <u>Under</u></td>
 <td></td>
 <td></td>
 <td></td>
