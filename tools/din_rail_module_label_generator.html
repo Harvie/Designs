@@ -112,9 +112,13 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td colspan=3>&#x1f4a1;<br />Světla Předsíň<br />Bezdrátové Relé</td>
 <td></td>
 </tr>
+
 </table>
 
+
+
 <table class="indexed">
+
 <tr>
 <td><small>Very long and tiny text that is really important to have on your breaker box!</small></td>
 <td>Warning!<small><small>Very long and tiny text that is really important to have on your breaker box!</small></small></td>
@@ -148,9 +152,13 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td></td>
 <td></td>
 </tr>
+
 </table>
 
+
+
 <table class="indexed fancyindex">
+
 <tr>
 <td></td>
 <td></td>
@@ -171,7 +179,7 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 </table>
 </div>
 
-<script>document.getElementById('labeltext').value=document.getElementById('labeltable').innerHTML.trim();</script>
+<script>document.getElementById('labeltext').value=document.getElementById('labeltable').innerHTML.replace(/<.?tbody>/g, "").trim();</script>
 
 </body>
 </html>
