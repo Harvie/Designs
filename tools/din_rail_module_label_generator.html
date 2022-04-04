@@ -5,37 +5,73 @@
 <style>
 /* DIN Rail Modules are 17.5mm wide, but mounted with 18mm pitch to accomodate differences */
 
+/* fonts */
 table,h1 { font-family: sans-serif; font-weight: normal; font-size: 3.8mm; line-height: 5.2mm; }
 small { font-size: 2.5mm; line-height: 2.5mm; }
 small small { font-size: 2mm; line-height: 1.9mm; }
+
+/* table */
+table { border-spacing:0px; border-collapse: collapse; }
+tr { margin-bottom: 10mm; }
 td * { display: block; }
 td {
 	border: 1px solid black; width: 18mm; height: 16mm; 
 	text-align: center; padding: 0; overflow: hidden;
-	display: flex-wrap; float: left; margin-bottom: 10mm; box-sizing: border-box;
+	display: flex-wrap; float: left; margin-bottom: 5mm; box-sizing: border-box;
 	justify-content: center; /* align-items: center; */
 	white-space: pre-line;
+	position: relative;
 }
 td:not(:last-child) { border-right: 0px solid red; }
-td[colspan="2"] { width: calc(2 * 18mm); }
-td[colspan="3"] { width: calc(3 * 18mm); }
-td[colspan="4"] { width: calc(4 * 18mm); }
-td[colspan="5"] { width: calc(5 * 18mm); }
-td[colspan="6"] { width: calc(6 * 18mm); }
-td[colspan="7"] { width: calc(7 * 18mm); }
-td[colspan="8"] { width: calc(8 * 18mm); }
-tr { margin-bottom: 10mm; }
-table { border-spacing:0px; border-collapse: collapse; }
+
+/* wide modules */
+td[colspan="2"]  { width: calc(2 * 18mm); counter-increment: module_counter 2; }
+td[colspan="3"]  { width: calc(3 * 18mm); counter-increment: module_counter 3; }
+td[colspan="4"]  { width: calc(4 * 18mm); counter-increment: module_counter 4; }
+td[colspan="5"]  { width: calc(5 * 18mm); counter-increment: module_counter 5; }
+td[colspan="6"]  { width: calc(6 * 18mm); counter-increment: module_counter 6; }
+td[colspan="7"]  { width: calc(7 * 18mm); counter-increment: module_counter 7; }
+td[colspan="8"]  { width: calc(8 * 18mm); counter-increment: module_counter 8; }
+td[colspan="9"]  { width: calc(8 * 18mm); counter-increment: module_counter 9; }
+td[colspan="10"] { width: calc(8 * 18mm); counter-increment: module_counter 10; }
+td[colspan="11"] { width: calc(8 * 18mm); counter-increment: module_counter 11; }
+td[colspan="12"] { width: calc(8 * 18mm); counter-increment: module_counter 12; }
+td[colspan="13"] { width: calc(8 * 18mm); counter-increment: module_counter 13; }
+td[colspan="14"] { width: calc(8 * 18mm); counter-increment: module_counter 14; }
+td[colspan="15"] { width: calc(8 * 18mm); counter-increment: module_counter 15; }
+td[colspan="16"] { width: calc(8 * 18mm); counter-increment: module_counter 16; }
+
+/* indexing */
+tr { counter-reset: module_counter; }
+td { counter-increment: module_counter 1; }
+table.indexed * td::after {
+	content: counter(module_counter);
+	font-size: 1.8mm; line-height: 1.9mm;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+
+	padding: 0px 1px 2px 1px;
+}
+table.fancyindex * td::after {
+	background-color: black; color: white;
+	width: 1.2em;
+	border-bottom-left-radius: 5px;
+}
+
+/* print layout */
 @media print {
+	* { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
 	.noprint, .noprint * { display: none; }
 	@page { size: landscape; }
 }
+
 </style>
 </head>
 <body>
 <h1>Distribution Box Label Generator for DIN Rail Modules ( github.com/harvie )</h1>
 <div class="noprint">Copy-paste these icons:</div>
-&#x1F4E1; &#x1F310; &#x1F514; &#x1F4FA; &#x1F4DE; &#x1F50C; &#x1F4A7; &#x1F525; &#x26A1; &#x1f4a1; &#x1F527; &#x1f6e0;&#xFE0F; &#x1F511; &#x1F512; &#x1F321;&#xFE0F; &#x2699;&#xFE0F; &#x1F552; &#x23F0; &#x1F4A8; &#x1F50B; &#x1F4F9; &#x1F510; &#x1F916; &#x2600;&#xFE0F; &#x1F312; &#x1F319; &#x1F506; &#x1F31E; &#x23F3; &#x1F6E1;&#xFE0F; &#x2694;&#xFE0F; &#x2620; &#x2620;&#xFE0F; &#x1F6D7; &#x1F697; &#x2B50; &#x2728; &#x1F4AB; &#x2744;&#xFE0F; &#x26A0; &#x26A0;&#xFE0F;
+&#x1F4E1; &#x1F310; &#x1F514; &#x1F4FA; &#x1F4DE; &#x1F50C; &#x1F4A7; &#x1F525; &#x26A1; &#x1f4a1; &#x1F527; &#x1f6e0;&#xFE0F; &#x1F511; &#x1F512; &#x1F321;&#xFE0F; &#x2699;&#xFE0F; &#x1F552; &#x23F0; &#x1F4A8; &#x1F50B; &#x1F4F9; &#x1F510; &#x1F916; &#x2600;&#xFE0F; &#x1F312; &#x1F319; &#x1F506; &#x1F31E; &#x23F3; &#x1F6E1;&#xFE0F; &#x2694;&#xFE0F; &#x2620; &#x2620;&#xFE0F; &#x1F6D7; &#x1F697; &#x2B50; &#x2728; &#x1F4AB; &#x2744;&#xFE0F; &#x26A0; &#x26A0;&#xFE0F; &#x1F6A8;
 <br />
 <div class="noprint">
 <textarea id="labeltext" style="width:100%; height: 20em;" oninput="document.getElementById('labeltable').innerHTML=document.getElementById('labeltext').value;"></textarea>
@@ -44,9 +80,9 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <button onclick="window.print();return false;">Print</button>
 </div>
 <br />
-<br />
 
-<table id="labeltable">
+<div id="labeltable">
+<table class="">
 
 <tr>
 <td></td>
@@ -66,7 +102,7 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td></td>
 <td>&#x1F50C;<br />Vchod</td>
 <td>&#x1F50C;<br />Předsíň</td>
-<td>&#x1F527;<br />Režie</td>
+<td>&#x1f6e0;&#xFE0F;<br />Režie</td>
 <td>&#x1f4a1;<br />Světla Kuchyně</td>
 <td>&#x1f4a1;<br />Světla Koupelna</td>
 <td>&#x1f4a1;<br />Světla Obývák</td>
@@ -75,7 +111,9 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td colspan=3>&#x1f4a1;<br />Světla Předsíň<br />Bezdrátové Relé</td>
 <td></td>
 </tr>
+</table>
 
+<table class="indexed">
 <tr>
 <td><small>Very long and tiny text that is really important to have on your breaker box!</small></td>
 <td>Warning!<small><small>Very long and tiny text that is really important to have on your breaker box!</small></small></td>
@@ -109,7 +147,9 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td></td>
 <td></td>
 </tr>
+</table>
 
+<table class="indexed fancyindex">
 <tr>
 <td></td>
 <td></td>
@@ -128,6 +168,7 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 </tr>
 
 </table>
+</div>
 
 <script>document.getElementById('labeltext').value=document.getElementById('labeltable').innerHTML.trim();</script>
 
