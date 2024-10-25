@@ -1,10 +1,10 @@
 module planter_cavity(void=0, da=70, db=83) {
-	translate([0,0,15]) difference() {
+	translate([0,0,14.1]) difference() {
 		intersection() {
 			cylinder(d1=da, d2=db, h=83, $fn=12);
 			cylinder(d1=da-5, d2=db*2, h=83, $fn=12);
 		}
-		if(void) translate([0,0,-15+1.5]) scale([0.95,0.95,1]) planter_cavity();
+		if(void) translate([0,0,-14.1+2.5]) scale([0.97,0.97,1]) planter_cavity();
 	}
 }
 
@@ -43,7 +43,7 @@ difference() {
 		translate([  0,0,97/2]) cube([120,4,96.99], center=true);
 	}
 	rotate([0,0,90]) planter();
-	rotate([0,0,90]) planter_cavity();
+	rotate([0,0,90]) scale([1.01,1.01,1]) planter_cavity();
 	if(half == 1) translate([-100,0,0]) cube(200);
 	if(half == 2) translate([-100,-200,0]) cube(200);
 }
