@@ -1,8 +1,8 @@
 module planter_cavity(void=0, da=70, db=83) {
 	translate([0,0,14.1]) difference() {
-		intersection() {
-			cylinder(d1=da, d2=db, h=83, $fn=12);
-			cylinder(d1=da-5, d2=db*2, h=83, $fn=12);
+		hull() {
+			translate([0,0,73]) cylinder(d1=db-2, d2=db, h=10, $fn=12);
+			cylinder(d1=da-5, d2=da, h=5, $fn=64);
 		}
 		if(void) translate([0,0,-14.1+2.5]) scale([0.97,0.97,1]) planter_cavity();
 	}
@@ -50,6 +50,7 @@ difference() {
 }
 
 //planter();
+//planter_cavity();
 
 planter_cavity(3);
 rotate([180,0,0]) {
