@@ -46,6 +46,15 @@ difference() {
 	rotate([0,0,90]) scale([1.01,1.01,1]) planter_cavity();
 	if(half == 1) translate([-100,0,0]) cube(200);
 	if(half == 2) translate([-100,-200,0]) cube(200);
+
+	//Screw holes
+	$fn=12;
+	translate([ 56, 0, 80]) rotate([90,0,0]) cylinder(d=3.5, h=100, center=true);
+	translate([ 56, 0, 45]) rotate([90,0,0]) cylinder(d=3.5, h=100, center=true);
+	translate([ 56, 0, 10]) rotate([90,0,0]) cylinder(d=3.5, h=100, center=true);
+	translate([-56, 0, 80]) rotate([90,0,0]) cylinder(d=3.5, h=100, center=true);
+	translate([-56, 0, 45]) rotate([90,0,0]) cylinder(d=3.5, h=100, center=true);
+	translate([-56, 0, 10]) rotate([90,0,0]) cylinder(d=3.5, h=100, center=true);
 }
 }
 
