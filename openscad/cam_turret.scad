@@ -83,6 +83,9 @@ module baseplate(d, toler=0) {
 			}
 		}
 
+		//Cable slit for surface mounting
+		translate([0,0,-d/2-9.99]) rotate([0,0,45]) rotate([0,90,0]) cylinder(d=5, h=d/2+14, $fn=5);
+
 	}
 }
 
