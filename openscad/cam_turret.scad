@@ -1,3 +1,4 @@
+//Ball dome camera turret, (c) Tomas Mudrunka 2025
 //I've printed this in PETG, 0.24mm layer, 0.6mm nozzle, no supports
 
 $fn=64;
@@ -14,7 +15,7 @@ module camball(d, cutout=0, toler=0, lens=30) {
 	//Additional clearances to be removed from ball holder
 	if(cutout) {
 		//Hole to insert the ball
-		translate([0,0,-d]) cylinder(d1=d+4, d2=d-8, h=d);
+		translate([0,0,-d]) cylinder(d1=d+4, d2=d-9, h=d);
 		
 		//Range of ball rotation:
 		hull() for ( i = [0 : 10 : 70] ) {
