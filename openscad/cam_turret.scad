@@ -1,3 +1,5 @@
+//I've printed this in PETG, 0.24mm layer, 0.6mm nozzle, no supports
+
 $fn=64;
 dia=45; //Diameter of ball, TODO: some things are not ready to change this
 tol=0.3; //Worst case scenario tolerance for well maintained ender3 :-)
@@ -12,7 +14,7 @@ module camball(d, cutout=0, toler=0, lens=30) {
 	//Additional clearances to be removed from ball holder
 	if(cutout) {
 		//Hole to insert the ball
-		translate([0,0,-d]) cylinder(d1=d+4, d2=d-4, h=d);
+		translate([0,0,-d]) cylinder(d1=d+4, d2=d-8, h=d);
 		
 		//Range of ball rotation:
 		hull() for ( i = [0 : 10 : 70] ) {
@@ -41,7 +43,7 @@ module ballholder(d) {
 		
 		//This makes everything more flexy
 		hull() {
-			sphere(d=d-4);
+			translate([0,d/4,0]) sphere(d=d/2);
 			translate([0,d/1.85,-d/2-10]) cylinder(d=d/2, h=10);
 		}
 		
