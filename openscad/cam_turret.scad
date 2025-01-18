@@ -26,11 +26,11 @@ module camball(d, cutout=0, toler=0, lens=30) {
 
 module screw() {
 	//Main screw hole, this can be improved to fit whatever screw/bolt you use
-	rotate([0,0,30]) cylinder(d=3, h=100, center=true, $fn=6);
-	rotate([0,0,30]) cylinder(d=5, h=100,            , $fn=6);
+	rotate([0,0,30]) cylinder(d=3.5, h=100, center=true, $fn=6);
+	rotate([0,0,30]) cylinder(d=5.5, h=100,            , $fn=6);
 	$fn=6;
-	rotate([0,  0,53]) translate([0,0,15]) cylinder(d=12, h=100);
-	rotate([180,0,53]) translate([0,0,15]) cylinder(d=12, h=100);
+	rotate([0,  0,55]) translate([0,0,15]) cylinder(d=12, h=100);
+	rotate([180,0,55]) translate([0,0,15]) cylinder(d=12, h=100);
 }
 
 module ballholder(d) {
@@ -52,7 +52,7 @@ module ballholder(d) {
 		translate([0,-500,0]) cube([2,1000,1000], center=true);
 		
 		//Clamp screw hole
-		translate([0,-d/1.5,-d/2.4]) rotate([0,90,0]) screw();
+		translate([0,-d/1.53,-d/2.4]) rotate([0,90,0]) screw();
 	}
 }
 
@@ -96,8 +96,9 @@ module ballholder_full(d) {
 
 	difference() {
 		ballholder(dia);
-		camball(d=dia, cutout=1, toler=-0.5);
+		camball(d=dia, cutout=1, toler=tol);
 		baseplate(dia, toler=tol);
+		translate([0,0,63]) cube([100,100,100], center=true); //Truncate sharp top
 	}
 }
 
