@@ -1,4 +1,4 @@
-$fn=100;
+$fn=64;
 dia=45;
 tol=0.3; //Worst case scenario for well maintained ender3 :-)
 
@@ -33,14 +33,14 @@ module ballholder(d) {
 		//This makes everything more flexy
 		hull() {
 			sphere(d=d+4);
-			translate([0,d/2,-d/2-10]) cylinder(d=d/2, h=10);
+			translate([0,d/1.85,-d/2-10]) cylinder(d=d/2, h=10);
 		}
 		
 		//Split to make it clamp
 		translate([0,-500,0]) cube([1.5,1000,1000], center=true);
 		
 		//Clamp screw hole
-		translate([0,-d/1.5,-d/2.1]) rotate([0,90,0]) screw();
+		translate([0,-d/1.5,-d/2.3]) rotate([0,90,0]) screw();
 	}
 }
 
@@ -49,11 +49,14 @@ module baseplate(d, toler=0) {
 	difference() {
 		//Flange
 		union() {
-			translate([0,0,-d/2-2]) cylinder(d1=d+3+dt, d2=d+dt, h=2);
+			translate([0,0,-d/2-2]) cylinder(d1=d+3+dt, d2=d+dt-9, h=8);
 			translate([0,0,-d/2-5]) cylinder(d1=d+dt, d2=d+3+dt, h=3);
 			translate([0,0,-d/2-9.99]) cylinder(d1=d+30+dt, d2=d+30+dt, h=5+toler);
 		}
 		
+		//Ball clearance
+		sphere(d=d+dt);
+
 		//Hole for cables
 		cylinder(d=d-10, h=1000, center=true);
 		
@@ -67,15 +70,16 @@ module baseplate(d, toler=0) {
 	}
 }
 
-
-
-camball(d=dia, cutout=0);
-%difference() {
-	ballholder(dia);	
-	camball(d=dia, cutout=1, toler=tol);
-	baseplate(dia, toler=tol);
+module ballholder_full(d) {
+	difference() {
+		ballholder(dia);
+		camball(d=dia, cutout=1, toler=tol);
+		baseplate(dia, toler=tol*2);
+	}
 }
 
+//camball(d=dia, cutout=0);
+ballholder_full(d=dia);
 //camball(d=dia, cutout=1);
 baseplate(dia);
 
