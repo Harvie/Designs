@@ -102,9 +102,9 @@ module ballholder_full(d) {
 	}
 }
 
-//camball(d=dia, cutout=0);
-ballholder_full(d=dia);
+color("#444") camball(d=dia, cutout=0);
+color("white") ballholder_full(d=dia);
 //camball(d=dia, cutout=1);
-baseplate(dia);
+color("white") baseplate(dia);
 
 
