@@ -96,15 +96,16 @@ module ballholder_full(d) {
 
 	difference() {
 		ballholder(dia);
-		camball(d=dia, cutout=1, toler=tol);
+		camball(d=dia, cutout=1, toler=0);
 		baseplate(dia, toler=tol);
 		translate([0,0,63]) cube([100,100,100], center=true); //Truncate sharp top
 	}
 }
 
-color("#444") camball(d=dia, cutout=0);
+//color("#444") camball(d=dia, cutout=0);
 color("white") ballholder_full(d=dia);
 //camball(d=dia, cutout=1);
+translate([dia*2,0,0])
 color("white") baseplate(dia);
 
 
