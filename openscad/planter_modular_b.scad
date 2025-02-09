@@ -18,8 +18,8 @@ difference() {
 	union() {
 		difference() {
 			cylinder(d2=20, d1=20, h=16);
-			translate([0,0,2]) cylinder(d2=17, d1=13, h=16); //pothole
-			translate([0,17.3/2*hole,2]) rotate([0,0,45]) cylinder(d2=12, d1=9.2, h=16, $fn=4); //pothole2
+			translate([0,0,1]) cylinder(d2=17, d1=13, h=17); //pothole
+			translate([0,17.3/2*hole,2]) rotate([0,0,45]) cylinder(d2=12, d1=9.2, h=16, $fn=4); //pothole-join
 		}
 		translate([-3,0,-2]) scale([1,0.9,1.3]) rotate([0,90,0]) rotate([0,0,30]) cylinder(d1=5, d2=38, h=16); //balcony
 		translate([0,0,-1]) cylinder(d2=17, d1=16.5, h=1); //index
