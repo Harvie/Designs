@@ -13,7 +13,7 @@ module cavity(hole=0) {
 			translate([0,0,1]) cylinder(d2=17, d1=13, h=14); //pothole
 			translate([0,6*hole,1]) rotate([0,0,45]) cylinder(d2=12, d1=9.2, h=14, $fn=4); //pothole-join
 		}
-		translate([-3,0,-2]) scale([1,0.9,1.3]) rotate([0,90,0]) rotate([0,0,30]) cylinder(d1=5, d2=38, h=15); //balcony clearance
+		translate([-3,0,-2]) scale([1,0.9,1.22]) rotate([0,90,0]) rotate([0,0,30]) cylinder(d1=5, d2=38, h=15); //balcony clearance
 	}
 	translate([-4,0,1.5]) sphere(1); //drain hole
 }
