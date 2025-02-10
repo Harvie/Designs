@@ -15,7 +15,7 @@ module cavity(hole=0) {
 		}
 		translate([-3,0,-2]) scale([1,0.9,1.3]) rotate([0,90,0]) rotate([0,0,30]) cylinder(d1=5, d2=38, h=15); //balcony clearance
 	}
-
+	translate([-4,0,1.5]) sphere(1); //drain hole
 }
 
 module planter(hole=0, hollow=1) {
@@ -36,6 +36,7 @@ module double(ho=1) {
 	translate([0,17.3,0])	if(ho==-1) cavity(-1); else planter(-1, hollow=ho);
 }
 
+//!cavity();
 //!planter();
 //!double()
 
