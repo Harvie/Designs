@@ -46,7 +46,7 @@ module planter2(hollow=1, n=1, pitch=17.3, d1=20) {
 
 	difference() {
 		union() {
-			translate([0,0,7.5]) rounded_prism(top, height=15, joint_top=0.5, joint_bot=0.5, joint_sides=0.5, splinesteps=$fn, anchor="origin"); //main hexagon
+			translate([0,0,7.5]) rounded_prism(top, height=15, joint_top=0.1, joint_bot=0.5, joint_sides=0.5, splinesteps=$fn, anchor="origin"); //main hexagon
 			for(i = [0 : 1 : n]) translate([0,i*pitch,-1]) rounded_prism(hexagon(d=16.5), hexagon(d=17), height=1, joint_top=-0.5, joint_bot=0, joint_sides=1, splinesteps=$fn, anchor="bot"); //index
 		}
 		if(hollow != 0) cavity2(n, pitch);
