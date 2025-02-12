@@ -1,3 +1,5 @@
+// (c) Tomas Mudrunka 2025
+
 include <BOSL2/std.scad>
 include <BOSL2/rounding.scad>
 
