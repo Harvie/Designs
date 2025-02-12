@@ -8,6 +8,7 @@ $fn=6;
 /* TODO
  - musi ji vyndat z formy
  - diry na zavlahu?
+ - diry na odtok?
 */
 
 module mold_plate(n, d, h=0.4, pitch=17.3, l=1.2) {
@@ -17,7 +18,7 @@ module mold_plate(n, d, h=0.4, pitch=17.3, l=1.2) {
 	}
 }
 
-module mold_screws(n, d=3.5/5, h=0.4, pitch=17.3, l=1.2) {
+module mold_screws(n, d=3.25/5, h=0.4, pitch=17.3, l=1.2) {
 	//Konce vert
 	translate([0,(0-0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
 	translate([0,(n+0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
@@ -27,7 +28,7 @@ module mold_screws(n, d=3.5/5, h=0.4, pitch=17.3, l=1.2) {
 	translate([0,(0-0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 	translate([0,(n+0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 	for(i = [0 : 1 : n]) {
-		translate([-1,i*pitch,13]) onion(r=5, ang=45, $fn=12);
+		translate([-1,i*pitch,13]) rotate([0,180,0]) onion(r=5, ang=40, $fn=12);
 		if(i!=n) {
 			translate([ pitch*0.5,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
 			translate([-pitch*0.5,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
@@ -106,6 +107,6 @@ module mold_final(units=1) {
 
 //!cavity2(n=1);
 //!planter2(n=1);
-//for(i = [0:1:2]) translate([0,0,i*15.1]) planter2(n=3-i); //pyramid stack
-//for(i = [0:1:2]) translate([i*23,0,0]) planter2(n=i); //testers
+//!for(i = [0:1:2]) translate([0,0,i*15]) planter2(n=3-i); //pyramid stack
+//!for(i = [0:1:2]) translate([i*23,0,0]) planter2(n=i); //testers
 mold_final(1);
