@@ -76,34 +76,30 @@ module planter2(hollow=1, n=1, pitch=17.3, d1=20, di=16.5) {
 	}
 }
 
-module double(ho=1) {
-	translate([0,0,0])		if(ho==-1) cavity( 1); else planter( 1, hollow=ho);
-	translate([0,17.3,0])	if(ho==-1) cavity(-1); else planter(-1, hollow=ho);
+module mold_final(units=1) {
+	scale(5) {
+		difference() {
+			union() {
+				difference() {
+					//translate([-11,-10,-1]) cube([22,37,16]);
+					//translate([0,0,0]) minkowski() {
+					//cube([2,6,0.0000000001], center=true);
+					hull() {
+						planter2(n=units, di=22);
+						translate([0,0,14]) mold_plate(n=units, d=23, h=1);
+					}
+					//}
+					planter2(hollow=0, n=units);
+					translate([-4,0,0]) cube([0.01,100,50], center=true); //split mold
+				}
+				translate([0,0,1]) cavity2(n=units, plate=0.4);
+			}
+		mold_screws(n=units);
+		}
+	}
 }
 
 //!cavity2();
 //!planter2(n=1);
 //for(i = [0:1:2]) translate([0,0,i*15.1]) planter2(n=3-i);
-
-
-
-scale(5) {
-	difference() {
-		union() {
-			difference() {
-				//translate([-11,-10,-1]) cube([22,37,16]);
-				//translate([0,0,0]) minkowski() {
-				//cube([2,6,0.0000000001], center=true);
-				hull() {
-					planter2(n=1, di=22);
-					translate([0,0,14]) mold_plate(n=1, d=23, h=1);
-				}
-				//}
-				planter2(hollow=0, n=1);
-				translate([-4,0,0]) cube([0.01,100,50], center=true); //split mold
-			}
-			translate([0,0,1]) cavity2(n=1, plate=0.4);
-		}
-	mold_screws(n=1);
-	}
-}
+mold_final(1);
