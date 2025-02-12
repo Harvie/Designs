@@ -62,18 +62,12 @@ module double(ho=1) {
 
 //%cavity();
 //cavity2();
-planter2();
+//planter2(n=5);
 //!double()
 
-/*
-union() {
-	rotate([0,0,60]) translate([0,0,15.5]) planter();
-	//translate([0,0,31]) double();
-	//translate([0,0,15.5]) double();
-	translate([0,-20,0]) planter();
-	double();
-}
-*/
+for(i = [0:1:2]) translate([0,0,i*15.1]) planter2(n=3-i);
+
+
 /*
 scale(5) {
 	difference() {
