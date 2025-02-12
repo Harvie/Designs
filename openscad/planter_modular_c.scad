@@ -4,7 +4,6 @@ include <BOSL2/rounding.scad>
 $fn=6;
 
 /* TODO
- - sroubovatelna forma
  - musi ji vyndat z formy
  - diry na zavlahu?
 */
@@ -16,13 +15,13 @@ module mold_plate(n, d, h=0.4, pitch=17.3, l=1.2) {
 	}
 }
 
-module mold_screws(n, d=3/5, h=0.4, pitch=17.3, l=1.2) {
+module mold_screws(n, d=3.5/5, h=0.4, pitch=17.3, l=1.2) {
 	//Konce vert
 	translate([0,(0-0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
 	translate([0,(n+0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
 	//Horiz
-	translate([0,(0-0.54)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
-	translate([0,(n+0.54)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(0-0.55)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.55)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 	translate([0,(0-0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 	translate([0,(n+0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 	for(i = [0 : 1 : n]) if(i!=n) {
