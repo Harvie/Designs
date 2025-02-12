@@ -16,6 +16,21 @@ module mold_plate(n, d, h=0.4, pitch=17.3, l=1.2) {
 	}
 }
 
+module mold_screws(n, d=3/5, h=0.4, pitch=17.3, l=1.2) {
+	//Konce vert
+	translate([0,(0-0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
+	//Horiz
+	translate([0,(0-0.54)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.54)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(0-0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	for(i = [0 : 1 : n]) if(i!=n) {
+		translate([ pitch*0.5,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
+		translate([-pitch*0.5,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
+	}
+}
+
 module cavity2(n=1, pitch=17.3, d1=13, d2=17, plate=0) {
 	bot = path_merge_collinear(union([
 		for(i = [0 : 1 : n]) union([
@@ -75,17 +90,21 @@ module double(ho=1) {
 
 scale(5) {
 	difference() {
-		//translate([-11,-10,-1]) cube([22,37,16]);
-		//translate([0,0,0]) minkowski() {
-			//cube([2,6,0.0000000001], center=true);
-			hull() {
-				planter2(n=1, di=22);
-				translate([0,0,14]) mold_plate(n=1, d=23, h=1);
+		union() {
+			difference() {
+				//translate([-11,-10,-1]) cube([22,37,16]);
+				//translate([0,0,0]) minkowski() {
+				//cube([2,6,0.0000000001], center=true);
+				hull() {
+					planter2(n=1, di=22);
+					translate([0,0,14]) mold_plate(n=1, d=23, h=1);
+				}
+				//}
+				planter2(hollow=0, n=1);
+				translate([-4,0,0]) cube([0.01,100,50], center=true); //split mold
 			}
-		//}
-		planter2(hollow=0, n=1);
-		translate([-4,0,0]) cube([0.01,100,50], center=true); //split mold
+			translate([0,0,1]) cavity2(n=1, plate=0.4);
+		}
+	mold_screws(n=1);
 	}
-	translate([0,0,1]) cavity2(n=1, plate=0.4);
-	 
 }
