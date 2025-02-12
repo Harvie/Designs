@@ -103,5 +103,6 @@ module mold_final(units=1) {
 
 //!cavity2();
 //!planter2(n=1);
-//for(i = [0:1:2]) translate([0,0,i*15.1]) planter2(n=3-i);
+//for(i = [0:1:2]) translate([0,0,i*15.1]) planter2(n=3-i); //pyramid stack
+//for(i = [0:1:2]) translate([i*23,0,0]) planter2(n=i); //testers
 mold_final(1);
