@@ -20,18 +20,19 @@ module mold_plate(n, d, h=0.4, pitch=17.3, l=1.2) {
 
 module mold_screws(n, d=3.25/5, h=0.4, pitch=17.3, l=1.2) {
 	//Konce vert
-	translate([0,(0-0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
-	translate([0,(n+0.58)*pitch,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(0-0.59)*pitch,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.59)*pitch,0]) cylinder(d=d, h=100, center=true);
 	//Horiz
-	translate([0,(0-0.55)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
-	translate([0,(n+0.55)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
-	translate([0,(0-0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
-	translate([0,(n+0.58)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(0-0.54)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.54)*pitch, 3]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(0-0.54)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+	translate([0,(n+0.54)*pitch,10]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 	for(i = [0 : 1 : n]) {
 		translate([-1,i*pitch,13]) rotate([0,180,0]) onion(r=5, ang=40, $fn=12);
 		if(i!=n) {
-			translate([ pitch*0.5,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
-			translate([-pitch*0.5,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
+			//Stredy vert
+			translate([ pitch*0.4,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
+			translate([-pitch*0.4,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
 		}
 	}
 }
@@ -96,7 +97,7 @@ module mold_final(units=1) {
 					}
 					//}
 					planter2(hollow=0, n=units);
-					translate([-4,0,0]) cube([0.01,100,50], center=true); //split mold
+					translate([-4,0,0]) cube([0.05,100,50], center=true); //split mold
 				}
 				translate([0,0,1]) cavity2(n=units, plate=0.4);
 			}
@@ -105,6 +106,7 @@ module mold_final(units=1) {
 	}
 }
 
+//!mold_screws(n=1);
 //!cavity2(n=1);
 //!planter2(n=1);
 //!for(i = [0:1:2]) translate([0,0,i*15]) planter2(n=3-i); //pyramid stack
