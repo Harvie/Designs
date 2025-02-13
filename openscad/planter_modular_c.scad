@@ -33,6 +33,9 @@ module mold_screws(n, d=3.25/5, h=0.4, pitch=17.3, l=1.2) {
 			//Stredy vert
 			translate([ pitch*0.4,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
 			translate([-pitch*0.4,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
+			//Uspora materialu
+			translate([ pitch*1.1,(i+0.5)*pitch,0]) cylinder(d=pitch*1.2, h=100, center=true, $fn=8);
+			translate([-pitch*1.1,(i+0.5)*pitch,0]) cylinder(d=pitch*1.2, h=100, center=true, $fn=8);
 		}
 	}
 }
