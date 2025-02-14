@@ -112,6 +112,7 @@ module mold_final(units=1) {
 //!mold_screws(n=1);
 //!cavity2(n=1);
 //!planter2(n=1);
+//!projection() rotate([90,0,0]) translate([-4,-17.3/2,0]) cavity2(n=1); //middle profile
 //!for(i = [0:1:2]) translate([0,0,i*15]) planter2(n=3-i); //pyramid stack
 //!for(i = [0:1:2]) translate([i*23,0,0]) planter2(n=i); //testers
 mold_final(1);
