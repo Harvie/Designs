@@ -40,11 +40,11 @@ module mold_screws(n, d=3.25/5, h=0.4, pitch=17.3, l=1.2) {
 	}
 }
 
-module cavity2(n=1, pitch=17.3, d1=13, d2=17, plate=0) {
+module cavity2(n=1, pitch=17.3, d1=13, d2=17, plate=0, skew=-1.5) {
 	bot = path_merge_collinear(union([
 		for(i = [0 : 1 : n]) union([
-			move([0,i*pitch], hexagon(d=10.2)),
-			if(i!=n) move([0,(i*pitch)+(pitch/2)], square([5.1,pitch/2], center=true))
+			move([skew,i*pitch], hexagon(d=10.2)),
+			if(i!=n) move([skew,(i*pitch)+(pitch/2)], square([5.1,pitch/2], center=true))
 		])
 	]));
 
