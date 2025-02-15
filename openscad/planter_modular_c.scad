@@ -8,7 +8,6 @@ $fn=6;
 /* TODO
  - musi ji vyndat z formy
  - diry na zavlahu?
- - diry na odtok?
 */
 
 module mold_plate(n, d, h=0.4, pitch=17.3, l=1.2) {
