@@ -34,6 +34,9 @@ module mold_screws(n, d=3.25/5, h=0.4, pitch=17.3, l=1.2) {
 			translate([-pitch*0.4,(i+0.5)*pitch,0]) cylinder(d=d, h=100, center=true);
 			//Stredy horiz pin
 			translate([0,(i+0.5)*pitch,-0.5]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
+			//Demolding compressor port
+			translate([-1.5,(i+0.5)*pitch,1]) cylinder(d1=1/5, d2=7/5, h=80/5, $fn=32);
+			translate([-1.5,(i+0.5)*pitch,1.2]) rotate([90,0,0]) cylinder(d=2/5, h=4, center=true);
 			//Uspora materialu
 			translate([ pitch*1.1,(i+0.5)*pitch,0]) cylinder(d=pitch*1.2, h=100, center=true, $fn=8);
 			translate([-pitch*1.1,(i+0.5)*pitch,0]) cylinder(d=pitch*1.2, h=100, center=true, $fn=8);
@@ -88,7 +91,7 @@ module planter2(hollow=1, n=1, pitch=17.3, d1=20, di=16.5) {
 	}
 }
 
-module mold_final(units=1) {
+module mold_final(units=1, clr=0.05) {
 	scale(5) {
 		difference() {
 			union() {
@@ -102,7 +105,7 @@ module mold_final(units=1) {
 					}
 					//}
 					planter2(hollow=0, n=units);
-					translate([-3,0,0]) cube([0.05,100,50], center=true); //split mold
+					translate([-3,0,0]) cube([clr,100,50], center=true); //split mold
 				}
 				translate([0,0,0.1]) cavity2(n=units, plate=0.35);
 			}
