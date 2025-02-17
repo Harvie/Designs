@@ -35,8 +35,9 @@ module mold_screws(n, d=3.25/5, h=0.4, pitch=17.3, l=1.2) {
 			//Stredy horiz pin
 			translate([0,(i+0.5)*pitch,-0.5]) rotate([0,90,0]) cylinder(d=d, h=100, center=true);
 			//Demolding compressor port
-			translate([-1.5,(i+0.5)*pitch,1]) cylinder(d1=1/5, d2=7/5, h=80/5, $fn=32);
-			translate([-1.5,(i+0.5)*pitch,1.2]) rotate([90,0,0]) cylinder(d=2/5, h=4, center=true);
+			translate([-1.5,(i+0.5)*pitch,1]) cylinder(d1=1/5, d2=8.5/5, h=75/5, $fn=32);
+			translate([-1.5,(i+0.5)*pitch,1.2]) rotate([90,30,0]) cylinder(d=2/5, h=4, center=true, $fn=3);
+			translate([-1.5,(i+0.5)*pitch,1.2]) rotate([90,30,90]) cylinder(d=2/5, h=1, center=true, $fn=3);
 			//Uspora materialu
 			translate([ pitch*1.1,(i+0.5)*pitch,0]) cylinder(d=pitch*1.2, h=100, center=true, $fn=8);
 			translate([-pitch*1.1,(i+0.5)*pitch,0]) cylinder(d=pitch*1.2, h=100, center=true, $fn=8);
