@@ -7,3 +7,4 @@ _*
 *.gcode
 *.cnc
 *.tap
+*.FCBak
