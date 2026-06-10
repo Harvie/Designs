@@ -1,5 +1,5 @@
 <!--
-Copyright 2021 - 2022, Tomas Mudrunka
+Copyright 2021 - 2026, Tomas Mudrunka
 SPDX-License-Identifier: BSD-3-Clause
 -->
 <!DOCTYPE html>
@@ -47,7 +47,7 @@ td[colspan="15"] { width: calc(15 * 18mm); counter-increment: module_counter 15;
 td[colspan="16"] { width: calc(16 * 18mm); counter-increment: module_counter 16; }
 
 /* indexing */
-tr { counter-reset: module_counter; }
+.indexed { counter-reset: module_counter; }
 td { counter-increment: module_counter 1; }
 table.indexed * td::after {
 	content: counter(module_counter);
@@ -126,7 +126,7 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 
 <tr>
 <td></td>
-<td></td>
+<td>&#x1F514;<br />Zvonek</td>
 <td>&#x1F50C;<br />Vchod</td>
 <td>&#x1F50C;<br />Předsíň</td>
 <td>&#x1f6e0;&#xFE0F;<br />Režie</td>
@@ -157,6 +157,12 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td></td>
 </tr>
 
+</table>
+
+
+
+<table class="indexed">
+
 <tr>
 <td colspan="3">&#x1F525;<br />Kuchyně<br />Varná deska</td>
 <td>&#x1f4a1;<br />Světla</td>
@@ -177,7 +183,7 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td>&#x1F525;<br />Koupelna Podlaha</td>
 <td>&#x1F525;<br />Koupelna Žebřík</td>
 <td>&#x1F50C; &#x1f4a1;<br />Koupelna</td>
-<td>&#x1F514;<br />Zvonek</td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -185,6 +191,12 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 <td></td>
 <td></td>
 </tr>
+
+</table>
+
+
+
+<table class="indexed">
 
 <tr>
 <td></td>
