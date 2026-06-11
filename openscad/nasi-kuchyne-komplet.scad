@@ -34,6 +34,7 @@ difference() {
 	//diry na srouby
 	translate([-15,0,5]) rotate([0,-90,0]) cylinder(d2=3, d1=7, h=6);
 	translate([-15,0,55]) rotate([0,-90,0]) cylinder(d2=3, d1=7, h=6);
+	translate([-15,0,25]) rotate([0,-90,0]) cylinder(d2=3, d1=7, h=6); //extra
 }
 
 
