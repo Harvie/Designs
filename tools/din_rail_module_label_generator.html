@@ -7,7 +7,7 @@ SPDX-License-Identifier: BSD-3-Clause
 <head>
 <title>&#x26A1; Distribution Board Label Generator for DIN Rail Modules</title>
 <style>
-/* DIN Rail Modules are 17.5mm wide, but mounted with 17.9mm pitch to accomodate differences */
+/* DIN Rail Modules are 17.5mm wide, but mounted with slightly bigger pitch to accomodate differences */
 :root { --pitch-mm: 17.9mm; }
 
 /* fonts */
@@ -77,7 +77,7 @@ table.fancyindex * td::after {
 </style>
 </head>
 <body>
-<h1>Distribution Box Label Generator for DIN Rail Circuit Breaker Modules with 17.9mm pitch ( <a href="https://harvie.github.io/">harvie.github.io</a> ; <a href="https://github.com/harvie">github.com/harvie</a> ; License: BSD-3 )</h1>
+<h1>Distribution Box Label Generator for DIN Rail Circuit Breaker Modules with <input type="number" id="pitchmm" name="pitchmm" value="17.9" min="5" max="100" step="0.05" oninput="document.documentElement.style.setProperty('--pitch-mm', this.value + 'mm')" />mm pitch ( <a href="https://harvie.github.io/">harvie.github.io</a> ; <a href="https://github.com/harvie">github.com/harvie</a> ; License: BSD-3 )</h1>
 <div class="noprint">Copy-paste these icons:</div>
 <!-- Power	--> &#x1F50C; &#x26A1; &#x1f4a1; &#x1F50B; &#x1F525; &#x1F4A7;
 <!-- Telco	--> &#x1F4E1; &#x1F310; &#x1F4FA; &#x1F4DE; &#x1F514; &#x1F4F1; &#x1F50A; &#x260E;&#xFE0F;
@@ -244,6 +244,7 @@ Use CTRL+S to save whole tool including your changes to your computer. CTRL+P to
 </div>
 
 <script>document.getElementById('labeltext').value=document.getElementById('labeltable').innerHTML.replace(/<.?tbody>/g, "").trim();</script>
+<script>document.getElementById('pitchmm').dispatchEvent(new Event('input'));</script>
 
 </body>
 </html>
