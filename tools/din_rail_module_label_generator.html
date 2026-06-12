@@ -7,7 +7,8 @@ SPDX-License-Identifier: BSD-3-Clause
 <head>
 <title>&#x26A1; Distribution Board Label Generator for DIN Rail Modules</title>
 <style>
-/* DIN Rail Modules are 17.5mm wide, but mounted with 18mm pitch to accomodate differences */
+/* DIN Rail Modules are 17.5mm wide, but mounted with 17.9mm pitch to accomodate differences */
+:root { --pitch-mm: 17.9mm; }
 
 /* fonts */
 table,h1 { font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 3.8mm; line-height: 4.7mm; }
@@ -20,33 +21,33 @@ a { color: dark-grey; text-decoration: none; }
 table { border-spacing:0px; border-collapse: collapse; margin-bottom: 2mm; }
 td * { display: block; }
 td {
-	border: 1px solid black; width: 18mm; height: 16mm; 
+	border: 1px solid black; width: var(--pitch-mm); height: 16mm;
 	text-align: center; padding: 3px 0 0 0; overflow: hidden;
 	display: flex-wrap; float: left; margin-bottom: 1px; box-sizing: border-box;
 	justify-content: center; /* align-items: center; */
 	white-space: pre-line;
 	position: relative;
 }
-.square * td { height: 18mm; }
+.square * td { height: var(--pitch-mm); }
 .half * td { height: 9mm; }
 td:not(:last-child) { border-right: 0px solid red; }
 
 /* wide modules */
-td[colspan="2" ] { width: calc(2  * 18mm); counter-increment: module_counter 2;  }
-td[colspan="3" ] { width: calc(3  * 18mm); counter-increment: module_counter 3;  }
-td[colspan="4" ] { width: calc(4  * 18mm); counter-increment: module_counter 4;  }
-td[colspan="5" ] { width: calc(5  * 18mm); counter-increment: module_counter 5;  }
-td[colspan="6" ] { width: calc(6  * 18mm); counter-increment: module_counter 6;  }
-td[colspan="7" ] { width: calc(7  * 18mm); counter-increment: module_counter 7;  }
-td[colspan="8" ] { width: calc(8  * 18mm); counter-increment: module_counter 8;  }
-td[colspan="9" ] { width: calc(9  * 18mm); counter-increment: module_counter 9;  }
-td[colspan="10"] { width: calc(10 * 18mm); counter-increment: module_counter 10; }
-td[colspan="11"] { width: calc(11 * 18mm); counter-increment: module_counter 11; }
-td[colspan="12"] { width: calc(12 * 18mm); counter-increment: module_counter 12; }
-td[colspan="13"] { width: calc(13 * 18mm); counter-increment: module_counter 13; }
-td[colspan="14"] { width: calc(14 * 18mm); counter-increment: module_counter 14; }
-td[colspan="15"] { width: calc(15 * 18mm); counter-increment: module_counter 15; }
-td[colspan="16"] { width: calc(16 * 18mm); counter-increment: module_counter 16; }
+td[colspan="2" ] { width: calc(2  * var(--pitch-mm)); counter-increment: module_counter 2;  }
+td[colspan="3" ] { width: calc(3  * var(--pitch-mm)); counter-increment: module_counter 3;  }
+td[colspan="4" ] { width: calc(4  * var(--pitch-mm)); counter-increment: module_counter 4;  }
+td[colspan="5" ] { width: calc(5  * var(--pitch-mm)); counter-increment: module_counter 5;  }
+td[colspan="6" ] { width: calc(6  * var(--pitch-mm)); counter-increment: module_counter 6;  }
+td[colspan="7" ] { width: calc(7  * var(--pitch-mm)); counter-increment: module_counter 7;  }
+td[colspan="8" ] { width: calc(8  * var(--pitch-mm)); counter-increment: module_counter 8;  }
+td[colspan="9" ] { width: calc(9  * var(--pitch-mm)); counter-increment: module_counter 9;  }
+td[colspan="10"] { width: calc(10 * var(--pitch-mm)); counter-increment: module_counter 10; }
+td[colspan="11"] { width: calc(11 * var(--pitch-mm)); counter-increment: module_counter 11; }
+td[colspan="12"] { width: calc(12 * var(--pitch-mm)); counter-increment: module_counter 12; }
+td[colspan="13"] { width: calc(13 * var(--pitch-mm)); counter-increment: module_counter 13; }
+td[colspan="14"] { width: calc(14 * var(--pitch-mm)); counter-increment: module_counter 14; }
+td[colspan="15"] { width: calc(15 * var(--pitch-mm)); counter-increment: module_counter 15; }
+td[colspan="16"] { width: calc(16 * var(--pitch-mm)); counter-increment: module_counter 16; }
 
 /* indexing */
 .indexed { counter-reset: module_counter; }
@@ -76,7 +77,7 @@ table.fancyindex * td::after {
 </style>
 </head>
 <body>
-<h1>Distribution Box Label Generator for DIN Rail Circuit Breaker Modules with 18mm pitch ( <a href="https://harvie.github.io/">harvie.github.io</a> ; <a href="https://github.com/harvie">github.com/harvie</a> ; License: BSD-3 )</h1>
+<h1>Distribution Box Label Generator for DIN Rail Circuit Breaker Modules with 17.9mm pitch ( <a href="https://harvie.github.io/">harvie.github.io</a> ; <a href="https://github.com/harvie">github.com/harvie</a> ; License: BSD-3 )</h1>
 <div class="noprint">Copy-paste these icons:</div>
 <!-- Power	--> &#x1F50C; &#x26A1; &#x1f4a1; &#x1F50B; &#x1F525; &#x1F4A7;
 <!-- Telco	--> &#x1F4E1; &#x1F310; &#x1F4FA; &#x1F4DE; &#x1F514; &#x1F4F1; &#x1F50A; &#x260E;&#xFE0F;
