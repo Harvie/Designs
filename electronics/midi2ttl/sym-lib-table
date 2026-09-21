@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "midi2ttl")(type "KiCad")(uri "${KIPRJMOD}/midi2ttl.kicad_sym")(options "")(descr "custom"))
+)

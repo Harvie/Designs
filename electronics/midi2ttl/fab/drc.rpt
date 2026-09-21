@@ -1,0 +1,36 @@
+** Drc report for midi2ttl.kicad_pcb **
+** Created on 2026-09-21T15:55:03 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Local override; error
+    @(18.5000 mm, 10.3500 mm): Spoj [OPTO_C] na F.Cu, délka 6.6500 mm
+    @(13.0000 mm, 12.0000 mm): Spoj [MIDI_IN_4] na F.Cu, délka 8.2350 mm
+[clearance]: Izolační mezera porušení ( izolační mezera 0,2000 mm; aktuální 0,0250 mm)
+    Local override; error
+    @(47.0000 mm, 12.0000 mm): Prokov [RX] na F.Cu - B.Cu
+    @(47.5000 mm, 5.5000 mm): Spoj [VCC] na B.Cu, délka 16.5000 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: omezení nastavení desky potisk; warning
+    @(0.0000 mm, 0.0000 mm): Segment na Edge.Cuts
+    @(4.0000 mm, -0.1500 mm): Pole reference H1
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(47.5000 mm, 22.0000 mm): Prokov [VCC] na F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(47.0000 mm, 12.0000 mm): Prokov [RX] na F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

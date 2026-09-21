@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "midi2ttl")(type "KiCad")(uri "${KIPRJMOD}/footprints/midi2ttl.pretty")(options "")(descr "custom"))
+)

@@ -1,0 +1,22 @@
+Design for me MIDI IN/OUT interface PCB for korg monotribe in KiCAD.
+
+One side is 6-pole JST connection to monotribe mainboard, other side are two DIN5 MIDI connectors.
+All connectors are connected to interface board via wires, i will provide/assemble them separately. These are not part of design, i just need convenient solder pads for the wires.
+
+Use something like 6n138/h11l1m optocoupler (or something more reliable/suitable), resistors, suitable protection diode(s) as needed.
+
+All components should be SMD except for connector wires which should be THT with extra strain relief holes.
+
+Make the circuit compact, but robust.
+
+Add mounting hole or two to PCB (perhaps M3 to M4?).
+
+Prepare all files needed for JLCPCB PCBA assembly. Choosing correct future-proof components available at that fab house. Always prefer most available components with 0 setup fee.
+
+I am not sure about the exact JST pinout or voltage.
+
+If you need to clarify something, lookup existing designs and korg monotribe related forums.
+
+Anyway make sure the design is compatible with both 3.3V and 5V cause i want to reuse it later for device with different logic voltage (arduino nano, esp32, stm32 ...). (this should NOT require any extra ciruitry like stabilizer or level shifter)
+
+schematic.png contains some rough sketch of how it might look. but if you find a cleaner solution, it's ok to diverge from the schematic.png.
