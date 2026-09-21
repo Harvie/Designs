@@ -3117,7 +3117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "HOST"
+		(property "Value" "MCU"
 			(at 172.72 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
