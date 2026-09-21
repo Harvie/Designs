@@ -8,3 +8,4 @@ _*
 *.cnc
 *.tap
 *.FCBak
+.history/
