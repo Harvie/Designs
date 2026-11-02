@@ -1649,6 +1649,12 @@
 		)
 	)
 	(junction
+		(at 130.81 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "113691ae-2893-436a-99e9-daac73d4a576")
+	)
+	(junction
 		(at 138.43 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1794,6 +1800,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 111.76) (xy 140.97 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd3dbe4-26fa-460d-8d3c-a6bcf1c3785a")
+	)
+	(wire
+		(pts
 			(xy 83.82 78.74) (xy 83.82 77.47)
 		)
 		(stroke
@@ -1821,6 +1837,16 @@
 			(type default)
 		)
 		(uuid "8fbfd38d-2d14-4cff-9a4d-6654e4545368")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 140.97 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed4221a-8207-4494-9d03-840cea813f33")
 	)
 	(wire
 		(pts
@@ -3342,6 +3368,99 @@
 			(project "midi-io"
 				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140.97 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6da9f625-678d-4da4-8a0b-20d888aaaffc")
+		(property "Reference" "R5"
+			(at 143.51 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 143.51 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 139.192 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 140.97 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "90dd83f7-e203-44ff-a7c0-bbb28b05dcfb")
+		)
+		(pin "1"
+			(uuid "1066a8b2-f179-4661-b212-5ef0a06749fc")
+		)
+		(instances
+			(project "midi-io"
+				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
+					(reference "R5")
 					(unit 1)
 				)
 			)
