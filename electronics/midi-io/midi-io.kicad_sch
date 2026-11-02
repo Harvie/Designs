@@ -5,6 +5,219 @@
 	(uuid "73e06f64-e7bb-40a7-8f7a-34a9a6448375")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74xGxx:74LVC1G07"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G07"
+				(at 3.81 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Buffer Gate, Open Drain, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff LVC CMOS Open Drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G07_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 0) (xy -2.54 -1.27) (xy -1.27 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G07_1_1"
+				(pin free line
+					(at -2.54 -10.16 90)
+					(length 6.35)
+					(name "NC"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -1461,6 +1674,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 85.09) (xy 100.33 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ac6f71-806d-47e5-ac1a-af92caacf3b3")
+	)
+	(wire
+		(pts
 			(xy 95.25 72.39) (xy 102.87 72.39)
 		)
 		(stroke
@@ -1468,6 +1691,16 @@
 			(type default)
 		)
 		(uuid "02211e9d-081f-4ab9-83ff-2f6a1a0cdd7d")
+	)
+	(wire
+		(pts
+			(xy 100.33 101.6) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049e01bb-3884-42bd-a1db-e73726f962ff")
 	)
 	(wire
 		(pts
@@ -1528,6 +1761,16 @@
 			(type default)
 		)
 		(uuid "31da3297-5fbf-466a-83fa-65bb6478f7e5")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0825f2-f4fe-49db-8a66-24dd7cc302c4")
 	)
 	(wire
 		(pts
@@ -1713,7 +1956,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 91.44 85.09 0)
+		(at 140.97 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1723,7 +1966,7 @@
 		)
 		(uuid "f023914a-e0ae-48e8-8f93-6e7b85f211ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.6023 85.09 0)
+			(at 146.1323 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,6 +2136,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "282c3e44-b434-403e-b5d2-4bf43ff1a67f")
+		(property "Reference" "#PWR010"
+			(at 130.81 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee97f777-bcad-4cd8-903e-fdc2d7bfe2c0")
+		)
+		(instances
+			(project "midi-io"
+				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 120.65 69.85 0)
 		(unit 1)
@@ -1964,6 +2285,84 @@
 			(project "midi-io"
 				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 130.81 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c06c9ad-0478-44f4-8506-5f0953af4402")
+		(property "Reference" "#PWR011"
+			(at 130.81 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 130.81 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 130.81 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "346e8327-9e8a-4a1f-bdff-8945ddad789f")
+		)
+		(instances
+			(project "midi-io"
+				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2165,7 +2564,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 135.89 92.71 0)
+		(at 158.75 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2175,7 +2574,7 @@
 		(dnp no)
 		(uuid "4d527468-4e4b-4931-b1b2-f58fe9c993a0")
 		(property "Reference" "#PWR09"
-			(at 135.89 96.52 0)
+			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2186,7 +2585,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 136.144 87.884 0)
+			(at 159.004 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2196,7 +2595,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 92.71 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2207,7 +2606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 92.71 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2218,7 +2617,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 135.89 92.71 0)
+			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,6 +2634,95 @@
 			(project "midi-io"
 				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G07")
+		(at 125.73 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d35a4b-7b01-4b74-ae66-a85fb3b39fa7")
+		(property "Reference" "U2"
+			(at 139.7 96.6468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G07"
+			(at 139.7 99.1868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf"
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate, Open Drain, Low-Voltage CMOS"
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "ddc06157-9103-484b-ae54-5d7ae7764dbd")
+		)
+		(pin "5"
+			(uuid "43041d5c-58f5-44cd-b294-72ab47d52052")
+		)
+		(pin "2"
+			(uuid "6298b9d6-2aad-423a-995f-80952c9a6653")
+		)
+		(pin "3"
+			(uuid "7d2ca6af-3cec-44f9-aabe-cfba562db159")
+		)
+		(pin "1"
+			(uuid "d4f8d8d8-8ed9-4e45-ad4e-ac24ec62e521")
+		)
+		(instances
+			(project "midi-io"
+				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2613,7 +3101,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "10R"
 			(at 86.868 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2703,7 +3191,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "33R"
 			(at 89.408 80.518 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2774,7 +3262,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 104.14 101.6 0)
+		(at 74.93 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2785,7 +3273,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d3ce608-2972-4eb2-a6f0-f7bcdfbbf48f")
 		(property "Reference" "H2"
-			(at 106.68 100.3299 0)
+			(at 77.47 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2796,7 +3284,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 106.68 102.8699 0)
+			(at 77.47 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2807,7 +3295,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 104.14 101.6 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2818,7 +3306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 101.6 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2829,7 +3317,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 104.14 101.6 0)
+			(at 74.93 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2850,7 +3338,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 135.89 96.52 0)
+		(at 158.75 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2861,7 +3349,7 @@
 		(fields_autoplaced yes)
 		(uuid "90656fe5-75a2-4f3d-999c-728596869cbe")
 		(property "Reference" "C1"
-			(at 139.7 95.2499 0)
+			(at 162.56 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2872,7 +3360,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 139.7 97.7899 0)
+			(at 162.56 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2883,7 +3371,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 136.8552 100.33 0)
+			(at 159.7152 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +3382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 96.52 0)
+			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2905,7 +3393,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 135.89 96.52 0)
+			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2916,7 +3404,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 136.8552 100.33 0)
+			(at 159.7152 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,7 +3508,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 77.47 100.33 0)
+		(at 48.26 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3031,7 +3519,7 @@
 		(fields_autoplaced yes)
 		(uuid "992fabb4-0837-487a-ab68-09cfbfeeb009")
 		(property "Reference" "H1"
-			(at 80.01 99.0599 0)
+			(at 50.8 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3042,7 +3530,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 80.01 101.5999 0)
+			(at 50.8 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3053,7 +3541,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 77.47 100.33 0)
+			(at 48.26 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 100.33 0)
+			(at 48.26 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3075,7 +3563,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 77.47 100.33 0)
+			(at 48.26 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3373,7 +3861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 100.33 0)
+		(at 158.75 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3384,7 +3872,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5d958dc-4792-4d18-acb1-ae3071953d9f")
 		(property "Reference" "#PWR08"
-			(at 135.89 106.68 0)
+			(at 158.75 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3395,7 +3883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 105.41 0)
+			(at 158.75 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3405,7 +3893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 100.33 0)
+			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3416,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 100.33 0)
+			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3427,7 +3915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 100.33 0)
+			(at 158.75 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
