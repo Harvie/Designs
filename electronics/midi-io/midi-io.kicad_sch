@@ -2704,6 +2704,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7829"
+			(at 125.73 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "ddc06157-9103-484b-ae54-5d7ae7764dbd")
 		)
@@ -3144,7 +3155,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22962"
+		(property "LCSC" "C22859"
 			(at 165.1 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3234,7 +3245,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22962"
+		(property "LCSC" "C23140"
 			(at 87.63 84.328 0)
 			(hide yes)
 			(show_name no)
