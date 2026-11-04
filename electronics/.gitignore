@@ -6,6 +6,7 @@ _*
 *.ps
 *.eps
 *.wav
+*.kicad_prl
 *~
 *-
 *#
