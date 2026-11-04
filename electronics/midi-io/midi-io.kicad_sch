@@ -3947,7 +3947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x06_P4.5mm_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4042,7 +4042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.25sqmm_1x06_P4.5mm_D0.65mm_OD2mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
