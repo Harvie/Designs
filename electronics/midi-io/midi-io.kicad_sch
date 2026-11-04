@@ -3426,7 +3426,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da9f625-678d-4da4-8a0b-20d888aaaffc")
 		(property "Reference" "R5"
@@ -3484,7 +3484,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25804"
 			(at 104.14 91.44 0)
 			(hide yes)
 			(show_name no)
