@@ -691,7 +691,7 @@
         "uuid": "73e06f64-e7bb-40a7-8f7a-34a9a6448375"
       }
     ],
-    "used_designators": "#PWR10-12,J1,MCU1,MIDI1,R5,U2",
+    "used_designators": "#PWR1,#PWR10-12,J1,MCU1,MIDI1,R5,U2-3",
     "variants": []
   },
   "sheets": [

@@ -1393,6 +1393,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:MCP1700x-330xxTT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP1700x-330xxTT"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "regulator linear ldo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP1700x-330xxTT_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP1700x-330xxTT_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1792,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 133.35 99.06)
+			(xy 135.89 111.76) (xy 133.35 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1869,16 +2025,6 @@
 			(type default)
 		)
 		(uuid "cd415012-0cb8-4673-8e3a-126d2f7d1151")
-	)
-	(wire
-		(pts
-			(xy 125.73 99.06) (xy 119.38 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e81ea2-c9ea-4e6a-9d63-d6c663f32dcd")
 	)
 	(wire
 		(pts
@@ -2118,7 +2264,7 @@
 	)
 	(global_label "TX+"
 		(shape output)
-		(at 135.89 99.06 0)
+		(at 135.89 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2128,7 +2274,7 @@
 		)
 		(uuid "bb8f7e02-abc3-42ca-969f-c55284e5b993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.6247 99.06 0)
+			(at 142.6247 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +2731,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 119.38 99.06 90)
+		(at 110.49 111.76 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2597,7 +2743,7 @@
 		(fields_autoplaced yes)
 		(uuid "3081f86c-d386-484b-978a-4d61662973c9")
 		(property "Reference" "#PWR04"
-			(at 123.19 99.06 0)
+			(at 114.3 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2608,7 +2754,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 115.57 99.0599 90)
+			(at 106.68 111.7599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2619,7 +2765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 99.06 0)
+			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2630,7 +2776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 99.06 0)
+			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2641,7 +2787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 119.38 99.06 0)
+			(at 110.49 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,6 +2804,84 @@
 			(project "midi-io"
 				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "345b7273-943f-45cc-9df4-8f5aeb271b5f")
+		(property "Reference" "#PWR01"
+			(at 118.11 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a04d1ae-97c3-45ad-b08f-34e01bafb246")
+		)
+		(instances
+			(project "midi-io"
+				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2774,6 +2998,100 @@
 			(project "midi-io"
 				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MCP1700x-330xxTT")
+		(at 118.11 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e5ac98-74e5-438c-b33e-ddb2c20455ab")
+		(property "Reference" "U3"
+			(at 118.11 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1700x-330xxTT"
+			(at 118.11 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 118.11 106.045 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-23"
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C39051"
+			(at 118.11 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd7f40e9-c4dd-4413-8854-ff17c5e9dfa7")
+		)
+		(pin "1"
+			(uuid "241d5f40-3e01-4e57-a40f-afa4214ca5d3")
+		)
+		(pin "3"
+			(uuid "77c46d60-8fbd-4cd6-9297-94ccb1e94a22")
+		)
+		(instances
+			(project "midi-io"
+				(path "/73e06f64-e7bb-40a7-8f7a-34a9a6448375"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3326,7 +3644,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 99.06 270)
+		(at 129.54 111.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -3337,7 +3655,7 @@
 		(dnp no)
 		(uuid "6b43fdff-885e-4b23-ba1d-cfebd43e5348")
 		(property "Reference" "R3"
-			(at 129.794 99.06 90)
+			(at 129.794 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3347,7 +3665,7 @@
 			)
 		)
 		(property "Value" "33R"
-			(at 127.762 97.028 90)
+			(at 127.762 109.728 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3357,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 129.54 100.838 90)
+			(at 129.54 113.538 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +3686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 99.06 0)
+			(at 129.54 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +3697,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 99.06 0)
+			(at 129.54 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3390,7 +3708,7 @@
 			)
 		)
 		(property "LCSC" "C23140"
-			(at 129.54 100.838 0)
+			(at 129.54 113.538 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
