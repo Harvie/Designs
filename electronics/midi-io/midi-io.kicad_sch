@@ -1901,7 +1901,7 @@
 		(uuid "eb07e6bf-0a61-4579-9aff-4043f29e0b7c")
 	)
 	(global_label "TX-"
-		(shape input)
+		(shape output)
 		(at 135.89 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1925,7 +1925,7 @@
 		)
 	)
 	(global_label "TX"
-		(shape input)
+		(shape output)
 		(at 53.34 83.82 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1949,7 +1949,7 @@
 		)
 	)
 	(global_label "RX+"
-		(shape input)
+		(shape output)
 		(at 170.18 73.66 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2021,7 +2021,7 @@
 		)
 	)
 	(global_label "RX"
-		(shape input)
+		(shape output)
 		(at 72.39 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2069,7 +2069,7 @@
 		)
 	)
 	(global_label "RX-"
-		(shape input)
+		(shape output)
 		(at 170.18 71.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2117,7 +2117,7 @@
 		)
 	)
 	(global_label "TX+"
-		(shape input)
+		(shape output)
 		(at 135.89 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3061,10 +3061,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "609ee78d-112c-4d2f-b6c9-f02f1783c687")
 		(property "Reference" "U1"
-			(at 87.63 71.0498 0)
+			(at 88.9 67.818 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3074,7 +3073,7 @@
 			)
 		)
 		(property "Value" "H11L1SR2M"
-			(at 87.63 73.5898 0)
+			(at 88.646 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3691,7 +3690,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "992fabb4-0837-487a-ab68-09cfbfeeb009")
@@ -3845,9 +3844,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bae452d6-c3a0-4072-85e8-9ffc35b9fcd7")
 		(property "Reference" "J1"
@@ -3937,9 +3936,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c826d3e0-19a1-4ce2-9a50-668f26fabdee")
